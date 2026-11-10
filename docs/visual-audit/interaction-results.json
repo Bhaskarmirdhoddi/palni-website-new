@@ -1,0 +1,12 @@
+{
+  "passed": [
+    "Contact: service deep link, required validation, client-side success and reset",
+    "Careers: search, empty state, team filter, role expansion, client-side CV confirmation",
+    "data-engineering: mouse and keyboard tab navigation",
+    "ai-automation: mouse and keyboard tab navigation",
+    "cx-solutions: mouse and keyboard tab navigation",
+    "Mobile: nested navigation destination, drawer closes and scrolling restores"
+  ],
+  "errors": [],
+  "missingAnchors": []
+}

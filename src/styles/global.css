@@ -1,0 +1,95 @@
+@import url("./tokens.css");
+@import url("./themes.css");
+@import url("./typography.css");
+@import url("/src/styles/layout.css");
+@import url("./components.css");
+@import url("./animations.css");
+@import url("./responsive.css");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 320px;
+    scroll-behavior: smooth;
+    background: var(--ink-0);
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    color: var(--pearl);
+    background: var(--ink-0);
+    transition: color .35s, background-color 1.6s var(--ease);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: var(--font-sans);
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: inherit;
+}
+
+button {
+    color: inherit;
+}
+
+img,
+svg,
+video,
+canvas {
+    display: block;
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+a {
+    color: var(--accent);
+}
+
+::selection {
+    color: var(--color-text-strong);
+    background: var(--accent-100);
+}
+
+:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+}
+
+#root {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.skip-link {
+    position: fixed;
+    z-index: var(--z-dialog);
+    top: .5rem;
+    left: .5rem;
+    padding: .75rem 1rem;
+    transform: translateY(-150%);
+    border-radius: var(--r-ctl);
+    color: var(--btn-fg);
+    background: var(--btn-bg);
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}

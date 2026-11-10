@@ -1,0 +1,153 @@
+:root {
+  color-scheme: dark;
+
+  /* Confluence v2: dark surface, text and brand tokens */
+  --ink-0: #070D1C;
+  --ink-1: #0E1830;
+  --ink-2: #15223F;
+  --glass: rgba(16, 27, 54, .66);
+  --glass-strong: rgba(14, 24, 48, .84);
+  --line: rgba(206, 220, 255, .11);
+  --line-strong: rgba(206, 220, 255, .22);
+  --pearl: #EEF2FA;
+  --mist: #AAB6CF;
+  --dim: #8592B0;
+  --wash: 238 242 250;
+  --maroon: #883125;
+  --gold: #B37C27;
+  --gold-hi: #E0AA4E;
+  --glow: 224 170 78;
+  --btn-bg: #E0AA4E;
+  --btn-fg: #1C1305;
+  --btn-hover: #F0C06A;
+  --sf: #4FB6FF;
+  --sn: #5ED9A0;
+  --db: #FF7448;
+  --review: #F5C451;
+  --danger: #FF8E8E;
+  --brand: var(--gold-hi);
+  --accent: var(--brand);
+  --grain: .09;
+  --tone-a: #8A2E21;
+  --tone-b: #123A78;
+  --tone-c: #8F6418;
+
+  /* Confluence v2: typography */
+  --display: "Space Grotesk", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --text: "Space Grotesk", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --fs-display: 5rem;
+  --fs-h1: 4rem;
+  --fs-h2: 3rem;
+  --fs-h3: 1.75rem;
+  --fs-h4: 1.25rem;
+  --fs-lead: 1.25rem;
+  --fs-body: 1.0625rem;
+  --fs-small: .9375rem;
+  --fs-micro: .8125rem;
+  --fs-figure: 6rem;
+  --fs-figure-md: 4rem;
+
+  /* Confluence v2: layout, radius and motion */
+  --sec-y: 6rem;
+  --head-gap: 3rem;
+  --hero-top: 7.5rem;
+  --hero-bottom: 6rem;
+  --s1: .25rem;
+  --s2: .5rem;
+  --s3: .75rem;
+  --s4: 1rem;
+  --s5: 1.5rem;
+  --s6: 2rem;
+  --s7: 3rem;
+  --s8: 4.5rem;
+  --s9: 6rem;
+  --r-tile: 18px;
+  --r-ctl: 10px;
+  --r-chip: 999px;
+  --wrap: 1320px;
+  --ease: cubic-bezier(.2, .75, .1, 1);
+  --hdr-h: 72px;
+  --hdr-h-safe: calc(var(--hdr-h) + env(safe-area-inset-top, 0px));
+
+  /* Compatibility aliases used by the existing shared components */
+  --font-sans: var(--text);
+  --font-display: var(--display);
+  --font-mono: ui-monospace, Consolas, monospace;
+  --brand-950: var(--maroon);
+  --brand-800: var(--gold);
+  --brand-600: var(--sf);
+  --accent-700: var(--gold);
+  --accent-500: var(--gold-hi);
+  --accent-100: var(--ink-2);
+  --success-700: var(--sn);
+  --warning-700: var(--review);
+  --error-700: var(--danger);
+  --white: #fff;
+  --black: #000;
+  --space-1: var(--s1);
+  --space-2: var(--s2);
+  --space-3: var(--s3);
+  --space-4: var(--s4);
+  --space-5: var(--s5);
+  --space-6: var(--s6);
+  --space-8: var(--s7);
+  --space-10: var(--s7);
+  --space-12: var(--s8);
+  --space-16: var(--s8);
+  --space-20: var(--s9);
+  --space-24: var(--s9);
+  --radius-sm: var(--r-ctl);
+  --radius-md: var(--r-tile);
+  --radius-lg: var(--r-tile);
+  --radius-pill: var(--r-chip);
+  --container-sm: 42rem;
+  --container-md: 58rem;
+  --container-lg: var(--wrap);
+  --container-xl: var(--wrap);
+  --gutter: 24px;
+  --duration-fast: .25s;
+  --duration-base: .35s;
+  --duration-slow: .9s;
+  --ease-standard: var(--ease);
+  --ease-emphasized: var(--ease);
+}
+
+@property --tone-a { syntax: "<color>"; inherits: true; initial-value: #8A2E21; }
+@property --tone-b { syntax: "<color>"; inherits: true; initial-value: #123A78; }
+@property --tone-c { syntax: "<color>"; inherits: true; initial-value: #8F6418; }
+
+@media (max-width: 1023px) {
+  :root {
+    --fs-display: 3.75rem;
+    --fs-h1: 3.25rem;
+    --fs-h2: 2.5rem;
+    --fs-h3: 1.5rem;
+    --fs-h4: 1.1875rem;
+    --fs-lead: 1.1875rem;
+    --fs-figure: 4.5rem;
+    --fs-figure-md: 3.5rem;
+    --sec-y: 4.5rem;
+    --head-gap: 2.5rem;
+    --hero-top: 5rem;
+    --hero-bottom: 4.5rem;
+  }
+}
+
+@media (max-width: 639px) {
+  :root {
+    --fs-display: 2.75rem;
+    --fs-h1: 2.5rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.375rem;
+    --fs-h4: 1.125rem;
+    --fs-lead: 1.125rem;
+    --fs-body: 1rem;
+    --fs-small: .875rem;
+    --fs-figure: 3.5rem;
+    --fs-figure-md: 3rem;
+    --sec-y: 3.5rem;
+    --head-gap: 2rem;
+    --hero-top: 3.5rem;
+    --hero-bottom: 3.5rem;
+  }
+}

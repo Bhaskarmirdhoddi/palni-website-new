@@ -1,0 +1,105 @@
+:root[data-theme="light"],
+[data-theme="light"].theme-sample {
+  color-scheme: light;
+  --ink-0: #F4F5F9;
+  --ink-1: #FFFFFF;
+  --ink-2: #EBEEF5;
+  --glass: rgba(255, 255, 255, .74);
+  --glass-strong: rgba(250, 251, 254, .88);
+  --line: rgba(14, 22, 44, .1);
+  --line-strong: rgba(14, 22, 44, .2);
+  --pearl: #0E162C;
+  --mist: #47526C;
+  --dim: #5E6984;
+  --wash: 14 22 44;
+  --gold-hi: #8E5F17;
+  --glow: 179 124 39;
+  --btn-bg: #883125;
+  --btn-fg: #FFFFFF;
+  --btn-hover: #A23C2E;
+  --sf: #0867AE;
+  --sn: #0A7A4F;
+  --db: #BF4117;
+  --review: #9A6B00;
+  --danger: #B42318;
+  --grain: .05;
+  --tone-a: #ECBFB2;
+  --tone-b: #CBDAF3;
+  --tone-c: #F0D19C;
+}
+
+:root,
+.theme-sample {
+  --color-primary: var(--btn-bg);
+  --color-primary-hover: var(--btn-hover);
+  --color-secondary: var(--sf);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--brand);
+  --color-bg: var(--ink-0);
+  --color-bg-alt: var(--ink-1);
+  --color-surface: var(--glass);
+  --color-surface-raised: var(--glass-strong);
+  --color-text: var(--mist);
+  --color-text-strong: var(--pearl);
+  --color-text-muted: var(--dim);
+  --color-border: var(--line);
+  --color-divider: var(--line);
+  --color-link: var(--accent);
+  --color-focus: var(--accent);
+  --color-button-text: var(--btn-fg);
+  --color-on-primary: var(--pearl);
+  --color-on-primary-muted: var(--mist);
+  --color-on-primary-accent: var(--gold-hi);
+  --color-button-secondary-bg: var(--glass-strong);
+  --color-success: var(--sn);
+  --color-warning: var(--review);
+  --color-error: var(--danger);
+  --shadow-card: 0 18px 48px rgba(0, 0, 0, .2);
+  --shadow-menu: 0 30px 70px -20px rgba(0, 0, 0, .7);
+}
+
+:root[data-theme="light"] *,
+[data-theme="light"].theme-sample * {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"],
+[data-theme="dark"].theme-sample {
+  color-scheme: dark;
+}
+
+body[data-svc="salesforce"] {
+  --accent: var(--sf);
+  --color-accent: var(--sf);
+  --color-accent-strong: var(--sf);
+  --color-link: var(--sf);
+  --color-focus: var(--sf);
+}
+
+body[data-svc="servicenow"] {
+  --accent: var(--sn);
+  --color-accent: var(--sn);
+  --color-accent-strong: var(--sn);
+  --color-link: var(--sn);
+  --color-focus: var(--sn);
+}
+
+body[data-svc="databricks"] {
+  --accent: var(--db);
+  --color-accent: var(--db);
+  --color-accent-strong: var(--db);
+  --color-link: var(--db);
+  --color-focus: var(--db);
+}
+
+[data-svc="salesforce"] {
+  --service-accent: var(--sf);
+}
+
+[data-svc="servicenow"] {
+  --service-accent: var(--sn);
+}
+
+[data-svc="databricks"] {
+  --service-accent: var(--db);
+}

@@ -1,0 +1,25 @@
+#root,
+.page-root {
+  min-height: 100%;
+}
+
+.cross-platform {
+  margin-top: var(--s8);
+  .currents {
+    .body {
+      .name {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.cross-platform > .sec-head h3 {
+  font: 500 var(--fs-h3)/1.15 var(--display);
+  letter-spacing: -.035em;
+}
+
+.section-subnav a[aria-current="location"] {
+  color: var(--pearl);
+  border-bottom-color: var(--sf);
+}
