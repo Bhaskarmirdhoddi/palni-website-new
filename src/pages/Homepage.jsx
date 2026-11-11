@@ -7,6 +7,8 @@ import ServiceCard from '../components/cards/ServiceCard'
 import CTASection from '../components/sections/CTASection'
 import { CTAContactDetails, CTAPromptList } from '../components/sections/CTAExtras'
 import PageHero from '../components/sections/PageHero'
+import DatabricksCanvas from '../components/sections/DatabricksCanvas'
+import { initScenes } from '../vendor/scenes'
 import ProcessSteps from '../components/sections/ProcessSteps'
 import SectionHeader from '../components/sections/SectionHeader'
 import FAQAccordion from '../components/ui/FAQAccordion'
@@ -95,79 +97,9 @@ function HeroParticleField() {
 }
 
 function ServiceArtwork({ type }) {
-  const canvasRef = useRef(null)
-  useEffect(() => {
-    const canvas = canvasRef.current
-    const ctx = canvas?.getContext('2d')
-    if (!ctx) return undefined
-    let frame
-    let width = 0
-    let height = 0
-    let tick = 0
-    const palette = type === 'salesforce' ? ['#35baff', '#d5aa61'] : type === 'servicenow' ? ['#44e6ae', '#e7bd64'] : ['#f08056', '#edbd66']
-    const resize = () => {
-      const box = canvas.getBoundingClientRect()
-      const dpr = Math.min(window.devicePixelRatio || 1, 2)
-      width = box.width; height = box.height
-      canvas.width = width * dpr; canvas.height = height * dpr
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
-    }
-    const dot = (x, y, color, radius = 1.3, alpha = .8) => {
-      ctx.globalAlpha = alpha; ctx.fillStyle = color; ctx.beginPath(); ctx.arc(x, y, radius, 0, Math.PI * 2); ctx.fill()
-    }
-    const line = (points, color, alpha = .35, lineWidth = 1) => {
-      ctx.globalAlpha = alpha; ctx.strokeStyle = color; ctx.lineWidth = lineWidth; ctx.beginPath()
-      points.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)); ctx.stroke()
-    }
-    const draw = () => {
-      tick += .012
-      ctx.clearRect(0, 0, width, height)
-      const cx = width * .5; const cy = height * .52
-      // Faint perspective grid grounds each scene like the reference artwork.
-      for (let i = -7; i <= 7; i++) line([[cx + i * width * .07, height * .45], [cx + i * width * .16, height]], palette[0], .065)
-      for (let i = 0; i < 7; i++) { const y = height * (.62 + i * i * .008); line([[width * .08, y], [width * .92, y]], palette[0], .065) }
-      if (type === 'salesforce') {
-        const r = Math.min(width, height) * .34
-        ctx.save(); ctx.translate(cx, cy); ctx.rotate(-.32)
-        ctx.globalAlpha = .42; ctx.strokeStyle = palette[0]; ctx.beginPath(); ctx.ellipse(0, 0, r * 1.2, r * .45, 0, 0, Math.PI * 2); ctx.stroke()
-        ctx.rotate(.78); ctx.globalAlpha = .55; ctx.beginPath(); ctx.ellipse(0, 0, r * 1.12, r * .48, 0, 0, Math.PI * 2); ctx.stroke(); ctx.restore()
-        ctx.globalAlpha = .35; ctx.strokeStyle = palette[0]; ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke()
-        for (let i = 0; i < 110; i++) { const a = i * 2.399; const rr = r * Math.sqrt(i / 110); dot(cx + Math.cos(a) * rr, cy + Math.sin(a) * rr * .88, i % 5 === 0 ? palette[1] : palette[0], i % 9 === 0 ? 1.8 : 1, .25 + (i % 5) * .1) }
-        for (let i = 0; i < 7; i++) { const a = i * 2.4 + tick * (i % 2 ? 1 : -1); const x = cx + Math.cos(a) * r * .88; const y = cy + Math.sin(a) * r * .55; line([[cx, cy], [x, y]], palette[0], .25); dot(x, y, '#dff5ff', 2.2 + (i % 2), .9) }
-      } else if (type === 'servicenow') {
-        const bases = [.26, .5, .74]
-        bases.forEach((pos, i) => {
-          const x = width * pos; const base = height * .72; const h = height * ([.22, .48, .54][i]) * (.9 + Math.sin(tick * 1.4 + i) * .08); const w = width * .065
-          const top = base - h; const skew = w * .38
-          const pts = [[x - w / 2, base], [x - w / 2, top], [x + w / 2, top - skew], [x + w / 2, base - skew], [x - w / 2, base], [x + w / 2, base - skew], [x + w / 2, top - skew], [x - w / 2, top], [x, top - skew * .5], [x + w / 2, top - skew], [x, top - skew * .5], [x, base - skew * .5]]
-          line(pts.slice(0, 4), palette[i === 1 ? 0 : 1], .76); line(pts.slice(4), palette[i === 1 ? 0 : 1], .62)
-          for (let j = 0; j < 22; j++) { const py = base - ((j / 22 * h + tick * 15) % h); dot(x + Math.sin(j * 12 + i) * w * .23, py, palette[i === 1 ? 0 : 1], 1.2, .72) }
-          dot(x, top - skew * .5, '#e6fff2', 2.4, .95)
-        })
-        for (let i = 0; i < 5; i++) { const x = width * (.2 + i * .15); const y = height * (.69 + Math.sin(tick + i) * .035); dot(x, y, '#dcfff2', 2.2, .9); line([[x, y], [x + width * .04, y + 8]], palette[0], .35) }
-      } else {
-        const layers = [0, 1, 2]
-        layers.forEach((layer) => {
-          const lift = layer * height * .16 + Math.sin(tick + layer) * 2
-          const x = cx; const y = height * .72 - lift; const dx = width * (.29 - layer * .015); const dy = height * .16
-          const color = palette[layer === 1 ? 0 : 1]
-          line([[x, y - dy], [x + dx, y], [x, y + dy], [x - dx, y], [x, y - dy]], color, .7, 1.2)
-          for (let row = -4; row <= 4; row++) for (let col = -5; col <= 5; col++) { const px = x + col * dx / 5.5 + row * dx / 9; const py = y + row * dy / 4.5; dot(px, py, color, 1.2, .55) }
-        })
-        for (let i = 0; i < 6; i++) { const x = cx + Math.cos(i * 2.2 + tick) * width * .27; const y = height * (.25 + (i % 3) * .12); dot(x, y, '#ffe8bc', 2 + i % 2, .85); line([[x, y], [cx + (x - cx) * .55, height * .55]], palette[1], .18) }
-      }
-      ctx.globalAlpha = 1
-      frame = requestAnimationFrame(draw)
-    }
-    resize(); const observer = new ResizeObserver(resize); observer.observe(canvas)
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)')
-    if (!reduced.matches) frame = requestAnimationFrame(draw); else { draw(); cancelAnimationFrame(frame) }
-    return () => { cancelAnimationFrame(frame); observer.disconnect() }
-  }, [type])
-  const label = type === 'salesforce' ? 'Salesforce network' : type === 'servicenow' ? 'ServiceNow workflows' : 'Databricks data layers'
-  return <canvas ref={canvasRef} className="service-artwork-canvas" role="img" aria-label={`Animated ${label} illustration`} />
+  if (type === 'databricks') return <DatabricksCanvas scene="hero" />
+  return <canvas className="service-artwork-canvas" data-scene={type === 'salesforce' ? 'orbit' : 'grid'} data-compact="1" aria-hidden="true" />
 }
-
 function Section({ id, section, className = '', children }) {
   return <section className={`home-section ${className}`} id={id}>
     <div className="container">
@@ -190,6 +122,7 @@ function FinalCtaAside() {
 }
 
 export default function Homepage() {
+  useEffect(() => initScenes(), [])
   useScrollReveal()
   return <>
     <SiteHeader links={[{ label: 'Careers', href: '#careers' }, { label: 'Contact', href: '#contact' }]} cta={{ label: 'Start with a Discovery', href: '#contact' }} />
