@@ -887,7 +887,7 @@ main {
 }
 
 .sec.tight {
-  padding-block: calc(var(--sec-y) / 2);
+  padding-block: 3rem var(--sec-y);
 }
 
 .sec-head {
@@ -1334,6 +1334,7 @@ a.tile:focus-visible::before {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--s4);
+  padding-bottom: var(--sec-y);
 }
 
 .current {
@@ -2966,7 +2967,7 @@ fieldset {
 }
 
 .cta {
-  padding-block: 0 var(--sec-y);
+  padding-block: var(--sec-y);
 }
 
 .cta::after {

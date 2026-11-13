@@ -261,7 +261,7 @@ export default {
       },
       "cardTitle": "Intelligent Workflow Automation",
       "pProps2": {},
-      "description2": "Automate multi-step processes across systems with AI driven execution, so work moves without needless handoffs.",
+      "description2": "Automate multi-step business processes across systems with AI-driven execution so work moves without unnecessary handoffs.",
       "divProps6": {
         "className": "aside"
       },
@@ -285,7 +285,7 @@ export default {
       },
       "cardTitle2": "Agentic AI and Decision Automation",
       "pProps3": {},
-      "description3": "AI agents that interpret inputs, make decisions and trigger real business actions on trusted enterprise context.",
+      "description3": "AI agents that interpret inputs, make decisions, and trigger real business actions on trusted enterprise context.",
       "divProps8": {
         "className": "aside"
       },
@@ -309,7 +309,7 @@ export default {
       },
       "cardTitle3": "Voice AI",
       "pProps4": {},
-      "description4": "Voice agents that understand, route and act, turning spoken requests into structured workflows.",
+      "description4": "Voice agents that understand, route, and act — capturing requests and translating them into structured workflows.",
       "divProps10": {
         "className": "aside"
       },
@@ -333,7 +333,7 @@ export default {
       },
       "cardTitle4": "Knowledge AI",
       "pProps5": {},
-      "description5": "Turn enterprise knowledge into instant answers, so teams and customers find accurate information without delay.",
+      "description5": "Turn enterprise knowledge into instant answers so teams and customers find accurate information without delay.",
       "divProps12": {
         "className": "aside"
       }
@@ -370,7 +370,7 @@ export default {
       "pProps": {
         "className": "lead"
       },
-      "description": "From workflow automation to agents, voice, knowledge and data intelligence. AI built into real enterprise processes, not a side demo. Each capability acts on trusted data, with ownership and guardrails so it can run in production.",
+      "description": "From workflow automation to agents, voice, knowledge, and data intelligence — AI engineered into real enterprise processes, not a sidecar demo. Each capability is designed to act on trusted data, with ownership and guardrails so it can run in production.",
       "divProps4": {
         "className": "xp"
       },
@@ -533,7 +533,7 @@ export default {
       },
       "cardTitle": "Processes that run themselves",
       "pProps2": {},
-      "description2": "Automate multi-step processes across systems with AI driven execution. We design the process, the exceptions and the ownership, so automation runs in production instead of stopping at a demo.",
+      "description2": "Automate multi-step business processes across systems with AI-driven execution. We design the process, exceptions, and ownership so automation runs in production instead of stopping at a demo.",
       "ulProps": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -577,7 +577,7 @@ export default {
       },
       "cardTitle2": "Systems that act as one",
       "pProps3": {},
-      "description3": "Connect CRM, ERP, data platforms and APIs into unified workflows, so data and decisions do not stall at each handoff.",
+      "description3": "Connect CRM, ERP, data platforms, and APIs into unified workflows. We make systems act together so data and decisions do not stall at each handoff.",
       "ulProps2": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -621,7 +621,7 @@ export default {
       },
       "cardTitle3": "Agents that decide and act",
       "pProps4": {},
-      "description4": "AI agents that interpret inputs, make decisions and trigger real business actions. Grounded in your data and processes, with guardrails so they run as part of the operation.",
+      "description4": "AI agents that interpret inputs, make decisions, and trigger real business actions. We ground them in your data and processes, with guardrails so they can run as part of the operation.",
       "ulProps3": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -665,7 +665,7 @@ export default {
       },
       "cardTitle4": "Requests captured by conversation",
       "pProps5": {},
-      "description5": "Voice agents that understand, route and act. We capture the request accurately and land it in the system of record without extra forms.",
+      "description5": "Voice agents that understand, route, and act — translating speech into structured workflows. We capture the request accurately and land it in the system of record without extra forms.",
       "ulProps4": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -709,7 +709,7 @@ export default {
       },
       "cardTitle5": "Answers from enterprise knowledge",
       "pProps6": {},
-      "description6": "Turn enterprise knowledge into instant answers. Answers are grounded in owned sources, so they stay consistent and current.",
+      "description6": "Turn enterprise knowledge into instant answers so teams and customers find accurate information without delay. We ground answers in owned sources so the response stays consistent and current.",
       "ulProps5": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -753,7 +753,7 @@ export default {
       },
       "cardTitle6": "Intelligence from live enterprise data",
       "pProps7": {},
-      "description7": "Turn enterprise data into real-time intelligence for analytics, recommendations and automated decisions. We connect trusted data to the workflow so AI can act, not just report.",
+      "description7": "Transform enterprise data into real-time intelligence that powers analytics, recommendations, and automated decisions. We connect trusted data to the workflow so AI can act, not just report.",
       "ulProps6": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -1529,11 +1529,11 @@ export default {
       "h2Props": {
         "id": "h-final"
       },
-      "heading": "Let's Talk About Your AI Priorities",
+      "heading": "Let’s talk AI and automation",
       "pProps": {
         "className": "lead"
       },
-      "description": "We will review your current workflows and find where automation and AI can improve speed, accuracy and execution.",
+      "description": "We’ll identify one process where AI can take real work off the team — with the data and guardrails to run it.",
       "divProps5": {
         "className": "btns"
       },

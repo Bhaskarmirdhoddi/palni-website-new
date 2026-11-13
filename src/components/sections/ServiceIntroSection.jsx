@@ -8,7 +8,7 @@ export default function ServiceIntroSection({ content }) {
       <div className="wrap">
         <div className="service-intro__head">
           <h2 id={`${content.id}-heading`}>{content.heading}</h2>
-          <p>{content.description}</p>
+          <p className="lead">{content.description}</p>
         </div>
         <ServicePrinciplesGrid items={content.items} />
       </div>

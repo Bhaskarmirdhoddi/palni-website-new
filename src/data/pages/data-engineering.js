@@ -168,7 +168,7 @@ export default {
       "pProps": {
         "className": "lead"
       },
-      "description": "Make faster, better informed decisions by uncovering insights from your data.",
+      "description": "Enable faster and better informed decision making by uncovering insights from your data.",
       "divProps2": {
         "className": "btns"
       },
@@ -271,7 +271,7 @@ export default {
       },
       "cardTitle": "Modern Data Platforms",
       "pProps2": {},
-      "description2": "Lakehouse architectures that unify data, analytics and AI, so teams work from one trusted foundation instead of disconnected stores.",
+      "description2": "Lakehouse architectures to unify data, analytics, and AI so teams work from one trusted foundation instead of disconnected stores.",
       "divProps6": {
         "className": "aside"
       },
@@ -295,7 +295,7 @@ export default {
       },
       "cardTitle2": "Data Warehousing and Analytics",
       "pProps3": {},
-      "description3": "Centralised data, transformation and analytics for reporting and insights that leadership can act on.",
+      "description3": "Centralized data, transformation, and analytics for reporting and business insights that leadership can act on.",
       "divProps8": {
         "className": "aside"
       },
@@ -319,7 +319,7 @@ export default {
       },
       "cardTitle3": "Agentic AI",
       "pProps4": {},
-      "description4": "AI agents that interpret data, generate insights and trigger workflows on governed enterprise context.",
+      "description4": "AI agents that interpret data, generate insights, and trigger workflows on governed enterprise context.",
       "divProps10": {
         "className": "aside"
       },
@@ -343,7 +343,7 @@ export default {
       },
       "cardTitle4": "Governance and Quality",
       "pProps5": {},
-      "description5": "Access control, lineage and quality built into the platform, so data stays trusted as it scales across teams.",
+      "description5": "Access control, lineage, and quality built into the platform so data stays trusted as it scales across teams and use cases.",
       "divProps12": {
         "className": "aside"
       }
@@ -380,7 +380,7 @@ export default {
       "pProps": {
         "className": "lead"
       },
-      "description": "From ingestion to insight, we build platforms, pipelines, warehousing, analytics, transformation and governance as one connected foundation, so reporting, analytics and AI work on consistent, trusted data.",
+      "description": "From ingestion to insight, we engineer data platforms, pipelines, warehousing, analytics, transformation, and governance as one connected foundation. Cloud warehouses, lakehouse platforms, and governed data models work together so reporting, analytics, and AI operate on consistent, trusted data.",
       "divProps4": {
         "className": "xp"
       },
@@ -543,7 +543,7 @@ export default {
       },
       "cardTitle": "Lakehouse architectures that unify the estate",
       "pProps2": {},
-      "description2": "Cloud data platforms that bring sources, models and access onto one foundation, lakehouse or warehouse, chosen for how the business actually works. Teams stop working from competing copies of the same data.",
+      "description2": "Cloud data platforms that bring sources, models, and access onto one foundation — lakehouse or warehouse, chosen for how the business actually operates. We unify those stores so teams stop working from competing copies of the same data.",
       "ulProps": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -587,7 +587,7 @@ export default {
       },
       "cardTitle2": "Warehousing built for scale",
       "pProps3": {},
-      "description3": "Snowflake and cloud warehouses for sharing, performance and analytics that grow with the business. Reporting stays fast, governed and ready as volumes and users increase.",
+      "description3": "Snowflake and cloud warehouses for sharing, performance, and analytics that grow with the business. We design the warehouse so reporting stays fast, governed, and ready as volumes and users increase.",
       "ulProps2": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -631,7 +631,7 @@ export default {
       },
       "cardTitle3": "Data that moves when the business needs it",
       "pProps4": {},
-      "description4": "Streaming, ingestion and automated pipelines that connect systems without brittle handoffs. Monitoring, retries and clear ownership mean jobs do not fail silently.",
+      "description4": "Streaming, ingestion, and automated pipelines that connect systems without brittle handoffs. We move data when the business needs it — with monitoring, retries, and ownership so jobs do not fail silently.",
       "ulProps3": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -675,7 +675,7 @@ export default {
       },
       "cardTitle4": "Insights teams can trust",
       "pProps5": {},
-      "description5": "Tableau, Power BI and reporting layers on consistent models, so every team sees the same numbers. We fix metric conflicts at the model layer, not by patching dashboards.",
+      "description5": "Tableau, Power BI, and reporting layers on consistent models — so every team sees the same numbers. We fix metric conflicts at the model layer instead of patching dashboards after the fact.",
       "ulProps4": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -719,7 +719,7 @@ export default {
       },
       "cardTitle5": "Models that stay maintainable",
       "pProps6": {},
-      "description6": "dbt and analytics engineering that turn raw data into governed, reusable models that teams can maintain, test and trust as new sources are added.",
+      "description6": "DBT and analytics engineering that turn raw data into governed, reusable models. We build transformations teams can maintain, test, and trust as new sources and use cases are added.",
       "ulProps5": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -763,7 +763,7 @@ export default {
       },
       "cardTitle6": "Quality and control as the data grows",
       "pProps7": {},
-      "description7": "Access, lineage, quality and compliance designed into the platform from the start. It is clear who owns the data, who can use it and whether it is ready for analytics or AI.",
+      "description7": "Access, lineage, quality, and compliance designed into the platform — not added after the fact. We make it clear who owns the data, who can use it, and whether it is ready for analytics or AI.",
       "ulProps6": {
         "className": "xp-tags",
         "aria-label": "Includes"
@@ -905,14 +905,14 @@ export default {
             },
             "cardTitle": "Data Foundation Diagnostic",
             "pProps": {},
-            "description": "See where data fragments, quality breaks and reporting cannot be trusted, then rank the fixes that unlock analytics and AI.",
+            "description": "See where data fragments, quality breaks, and reporting cannot be trusted — then rank the fixes that unlock analytics and AI.",
             "divProps": {
               "className": "gets"
             },
             "bProps": {},
             "label2": "You get",
             "spanProps2": {},
-            "label3": "Source map, quality risks and a sequenced modernisation plan.",
+            "label3": "Source map, quality risks, and a sequenced modernization plan.",
             "spanProps3": {
               "className": "link more"
             },
@@ -945,14 +945,14 @@ export default {
             },
             "cardTitle": "Pipeline Acceleration Plan",
             "pProps": {},
-            "description": "Find the latency, brittle jobs and handoffs that keep teams waiting on data.",
+            "description": "Find the latency, brittle jobs, and handoffs that keep teams waiting on data.",
             "divProps": {
               "className": "gets"
             },
             "bProps": {},
             "label2": "You get",
             "spanProps2": {},
-            "label3": "Pipeline inventory, bottleneck list and a 90 day acceleration scope.",
+            "label3": "Pipeline inventory, bottleneck list, and a 90-day acceleration scope.",
             "spanProps3": {
               "className": "link more"
             },
@@ -985,14 +985,14 @@ export default {
             },
             "cardTitle": "Analytics Trust Review",
             "pProps": {},
-            "description": "Reconcile competing numbers so leadership, finance and operations work from one model.",
+            "description": "Reconcile competing numbers so leadership, finance, and operations work from one model.",
             "divProps": {
               "className": "gets"
             },
             "bProps": {},
             "label2": "You get",
             "spanProps2": {},
-            "label3": "Metric conflict list, governed model recommendations and dashboard priorities.",
+            "label3": "Metric conflict list, governed model recommendations, and dashboard priorities.",
             "spanProps3": {
               "className": "link more"
             },
@@ -1025,14 +1025,14 @@ export default {
             },
             "cardTitle": "AI Readiness Assessment",
             "pProps": {},
-            "description": "Confirm your data, lineage and access controls can safely ground AI before you fund an agent.",
+            "description": "Confirm whether your data, lineage, and access controls can safely ground AI — before you fund an agent.",
             "divProps": {
               "className": "gets"
             },
             "bProps": {},
             "label2": "You get",
             "spanProps2": {},
-            "label3": "Readiness score, data gaps and the first AI safe use case.",
+            "label3": "Readiness score, data gaps, and the first AI-safe use case.",
             "spanProps3": {
               "className": "link more"
             },
@@ -1094,7 +1094,7 @@ export default {
         "h3Props": {},
         "cardTitle": "Align",
         "pProps": {},
-        "description": "We review your current data environment and find where quality, pipelines or AI readiness can improve.",
+        "description": "We review your current data environment and identify where quality, pipelines, or AI readiness can improve.",
         "liProps2": {
           "className": "step"
         },
@@ -1106,7 +1106,7 @@ export default {
         "h3Props2": {},
         "cardTitle2": "Execute",
         "pProps2": {},
-        "description2": "One team designs and builds platforms that unify data, analytics and AI, from architecture to implementation.",
+        "description2": "From assessment and architecture to implementation — one team designs and builds platforms that unify data, analytics, and AI.",
         "liProps3": {
           "className": "step"
         },
@@ -1118,7 +1118,7 @@ export default {
         "h3Props3": {},
         "cardTitle3": "Scale",
         "pProps3": {},
-        "description3": "Architectures designed for growth, with governed data that stays reliable as the business expands."
+        "description3": "Architectures designed for growth and complexity, with governed data that stays reliable as the business expands."
       }
     }
   },
@@ -1426,7 +1426,7 @@ export default {
             "h3Props": {},
             "cardTitle": "Enterprise Experience",
             "pProps": {},
-            "description": "Proven delivery in complex environments, with governance, security and reliability built into every layer."
+            "description": "Proven delivery across complex environments with governance, security, and reliability built into every layer."
           }
         },
         {
@@ -1449,7 +1449,7 @@ export default {
             "h3Props": {},
             "cardTitle": "Cloud-Native Expertise",
             "pProps": {},
-            "description": "Deep experience with modern cloud data platforms, orchestration tools and cost-aware infrastructure."
+            "description": "Deep experience with modern cloud data platforms, orchestration tools, and cost-optimized infrastructure design."
           }
         },
         {
@@ -1472,7 +1472,7 @@ export default {
             "h3Props": {},
             "cardTitle": "End-to-End Delivery",
             "pProps": {},
-            "description": "From assessment and architecture to implementation and optimisation. One team owns the full data lifecycle."
+            "description": "From assessment and architecture to implementation and optimization — one team accountable for the full data lifecycle."
           }
         },
         {
@@ -1495,7 +1495,7 @@ export default {
             "h3Props": {},
             "cardTitle": "Measurable Outcomes",
             "pProps": {},
-            "description": "Clear success measures tied to reporting speed, data quality, efficiency and total cost of ownership."
+            "description": "Clear success metrics tied to reporting speed, data quality, operational efficiency, and total cost of ownership."
           }
         }
       ]
@@ -1543,7 +1543,7 @@ export default {
       "pProps": {
         "className": "lead"
       },
-      "description": "We will review your current environment and find opportunities to improve data quality, governance and AI readiness.",
+      "description": "We will review your current environment and identify opportunities to improve data quality, governance and AI readiness.",
       "divProps5": {
         "className": "btns"
       },

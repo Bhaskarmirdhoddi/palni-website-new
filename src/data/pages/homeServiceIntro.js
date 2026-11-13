@@ -26,8 +26,8 @@ const cards = [
 // Independent copy; reuse the established icon treatments and card structure.
 export const homeServiceIntro = {
   id: 'service-intro',
-  heading: 'Removing Friction from Enterprise Operations',
-  description: 'Fragmented data, cross-platform workflows and expanding technology stacks make enterprise change harder than it needs to be. Palni helps reduce that complexity by creating greater consistency across systems, workflows and data—so the business can operate more effectively and adopt AI with confidence.',
+  heading: 'Enterprise transformation rarely lives in one platform.',
+  description: 'Palni brings applications, data and AI together so information flows, workflows move end-to-end, and AI works on trusted enterprise context.',
   items: cards.map((card, index) => ({
     key: card.key,
     content: {

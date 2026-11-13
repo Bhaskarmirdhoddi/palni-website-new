@@ -483,7 +483,7 @@ const defaults = {
           "label4": "Articles and perspectives.",
           "aProps3": {
             "className": "mg-s",
-            "href": "/databricks-expertise#accelerators"
+            "href": ""
           },
           "spanProps7": {
             "className": "icb sm"
@@ -1787,7 +1787,7 @@ const defaults = {
           "label2": "Challenges, what Palni did and\n                    outcomes.",
           "aProps2": {
             "className": "mg-s",
-            "href": "https://palni.com/blog/",
+            "href": "#",
             "target": "_blank",
             "rel": "noopener"
           },
@@ -1827,7 +1827,7 @@ const defaults = {
           "label4": "Articles and perspectives.",
           "aProps3": {
             "className": "mg-s",
-            "href": "/databricks-expertise#accelerators"
+            "href": "#"
           },
           "spanProps7": {
             "className": "icb sm"

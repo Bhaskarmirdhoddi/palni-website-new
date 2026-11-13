@@ -377,20 +377,20 @@ export default {
       },
       "divSpace": "\n      ",
       "divProps2": {
-        "className": "services-head text-center"
+        "className": "sec-head"
       },
       "divSpace2": "\n        ",
       "h2Props": {
         "id": "h-services"
       },
-      "heading": "Enterprise transformation rarely lives in ",
+      "heading": "Platform Solutions for Enterprise Operations",
       "brProps": {},
-      "heading2": "one platform.",
+      "heading2": "",
       "divSpace3": "\n        ",
       "pProps": {
-        "className": "d-services muted"
+        "className": "lead"
       },
-      "description": "Palni brings applications, data and AI together so information flows, workflows move\n          end-to-end, and AI works on trusted enterprise context.",
+      "description": "Choose the area that best matches the business challenge you want to address.",
       "divSpace4": "\n      ",
       "divSpace5": "\n      ",
       "divProps3": {
