@@ -2,6 +2,8 @@ import { useLayoutEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { initScenes } from '../vendor/scenes'
 import { initSite } from '../vendor/site'
+import ConfiguredPage from '../components/composed/ConfiguredPage'
+import { pageConfigurations } from '../data/pages'
 
 export default function ReferencePage({ page }) {
   const location = useLocation()
@@ -70,5 +72,5 @@ export default function ReferencePage({ page }) {
     }
   }, [page, location.hash, location.pathname])
 
-  return <div className="page-root" dangerouslySetInnerHTML={{ __html: page.html }} />
+  return <ConfiguredPage key={page.key} configuration={pageConfigurations[page.key]} />
 }

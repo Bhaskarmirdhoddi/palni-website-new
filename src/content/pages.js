@@ -1,18 +1,4 @@
-/* Auto-generated from original Palni reference HTML. Do not edit by hand. */
-import home from './home.html?raw'
-import databricks from './databricks.html?raw'
-import databricks_capabilities from './databricks-capabilities.html?raw'
-import databricks_industries from './databricks-industries.html?raw'
-import databricks_expertise from './databricks-expertise.html?raw'
-import servicenow from './servicenow.html?raw'
-import salesforce from './salesforce.html?raw'
-import use_cases from './use-cases.html?raw'
-import about from './about.html?raw'
-import careers from './careers.html?raw'
-import contact from './contact.html?raw'
-import data_engineering from './data-engineering.html?raw'
-import ai_automation from './ai-automation.html?raw'
-import cx_solutions from './cx-solutions.html?raw'
+/* Route metadata. Page content lives in src/data/pages. */
 
 export const pages = [
   {
@@ -22,7 +8,6 @@ export const pages = [
     title: "Palni | Salesforce, ServiceNow and Databricks",
     description: "Palni helps enterprises improve customer and revenue operations with Salesforce, streamline workflows with ServiceNow, and build trusted data solutions with Databricks.",
     svc: "",
-    html: home,
   },
   {
     key: "databricks",
@@ -31,7 +16,6 @@ export const pages = [
     title: "Databricks Consulting and Data Modernisation | Palni",
     description: "Modernise data platforms, build trusted data products and move AI into production with Palni&#x27;s Databricks expertise, engineering and accelerators.",
     svc: "databricks",
-    html: databricks,
   },
   {
     key: "databricks-capabilities",
@@ -40,7 +24,6 @@ export const pages = [
     title: "Databricks Data Engineering and AI Capabilities | Palni",
     description: "Explore Palni&#x27;s Databricks capabilities across data engineering, data products, AI and machine learning, governance, migration and agentic data.",
     svc: "databricks",
-    html: databricks_capabilities,
   },
   {
     key: "databricks-industries",
@@ -49,7 +32,6 @@ export const pages = [
     title: "Databricks Industry Solutions | Palni",
     description: "See how Palni applies Databricks, data engineering and AI to data priorities in financial services, life sciences and manufacturing.",
     svc: "databricks",
-    html: databricks_industries,
   },
   {
     key: "databricks-expertise",
@@ -58,7 +40,6 @@ export const pages = [
     title: "Databricks Expertise and Accelerators | Palni",
     description: "Explore Palni&#x27;s Databricks certified expertise and six accelerators for data migration, semantic migration, security, ELT and Genie performance.",
     svc: "databricks",
-    html: databricks_expertise,
   },
   {
     key: "servicenow",
@@ -67,7 +48,6 @@ export const pages = [
     title: "ServiceNow Consulting and Workflow Automation | Palni",
     description: "Improve service operations, automate workflows and support faster resolution with Palni&#x27;s ServiceNow expertise and focused accelerators.",
     svc: "servicenow",
-    html: servicenow,
   },
   {
     key: "salesforce",
@@ -76,7 +56,6 @@ export const pages = [
     title: "Salesforce Consulting and Revenue Transformation | Palni",
     description: "Improve pipeline visibility, streamline quoting and bring AI into Salesforce sales and service workflows with Palni.",
     svc: "salesforce",
-    html: salesforce,
   },
   {
     key: "use-cases",
@@ -85,7 +64,6 @@ export const pages = [
     title: "Enterprise Technology Use Cases | Palni",
     description: "Explore Palni use cases across Salesforce, ServiceNow and Databricks, with business challenges, approaches and reported outcomes.",
     svc: "brand",
-    html: use_cases,
   },
   {
     key: "about",
@@ -94,7 +72,6 @@ export const pages = [
     title: "About Palni | Enterprise Technology Expertise",
     description: "Learn about Palni&#x27;s people, culture and approach to enterprise technology across Salesforce, ServiceNow and Databricks.",
     svc: "brand",
-    html: about,
   },
   {
     key: "careers",
@@ -103,7 +80,6 @@ export const pages = [
     title: "Careers at Palni | We Aim High. So Will You.",
     description: "Explore open roles at Palni in engineering, AI and automation, design, people and business. See how we work, what we offer and how we hire.",
     svc: "brand",
-    html: careers,
   },
   {
     key: "contact",
@@ -112,7 +88,6 @@ export const pages = [
     title: "Contact Palni | Start a Discovery",
     description: "Talk to Palni about Salesforce, ServiceNow or Databricks. Share your business priority and start a focused discovery conversation.",
     svc: "brand",
-    html: contact,
   },
   {
     key: "data-engineering",
@@ -121,7 +96,6 @@ export const pages = [
     title: "Data Engineering Services for AI-Ready Data | Palni",
     description: "Centralise fragmented data, modernise reporting and build governed data platforms that make analytics and AI reliable.",
     svc: "brand",
-    html: data_engineering,
   },
   {
     key: "ai-automation",
@@ -130,7 +104,6 @@ export const pages = [
     title: "AI and Automation Services for Enterprise Workflows | Palni",
     description: "Automate workflows, connect systems and put AI agents to work inside real business processes, with the data and guardrails to run in production.",
     svc: "brand",
-    html: ai_automation,
   },
   {
     key: "cx-solutions",
@@ -139,7 +112,6 @@ export const pages = [
     title: "CX Solutions for Service, Support and Loyalty | Palni",
     description: "Modernise customer journeys, support operations and service processes with connected channels, shared customer context and AI assisted support.",
     svc: "brand",
-    html: cx_solutions,
   }
 ]
 

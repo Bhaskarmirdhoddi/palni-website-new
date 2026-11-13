@@ -1,16 +1,29 @@
-# React + Vite
+# Palni website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React and Vite website with page-specific content and shared components.
 
-Currently, two official plugins are available:
+## Edit the website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Content and section order:** src/data/pages/ - one file per page.
+- **Homepage introduction:** src/data/pages/homeServiceIntro.js.
+- **Navigation and footer:** src/data/pages/navigation.js.
+- **Routes, browser titles and metadata:** src/content/pages.js.
+- **Reusable UI:** src/components/composed/ and src/components/sections/.
+- **Design:** src/styles/site.css and src/styles/app.css.
+- **Images, logos and fonts:** public/assets/.
 
-## React Compiler
+See [the Content & Design Editing Guide](docs/CONTENT-EDITING-GUIDE.md) for exact page-to-component mappings and editing examples.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Run and build
 
-## Expanding the ESLint configuration
+Run npm install when dependencies are needed, npm run dev for a local preview, and npm run build for production output.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Verify routes and content isolation
+
+Start the server with npm run dev -- --host 127.0.0.1 --port 5174, then run node scripts/verify-site.mjs in another terminal.
+
+The check covers all route aliases, mobile menus, section rendering and page-data isolation. It writes no screenshots or reports. Set SITE_URL for another local server address, or CHROME_PATH for another Chrome executable. On Windows the default is the standard Chrome installation; elsewhere Playwright uses its installed Chromium.
+
+## Animation engine maintenance
+
+Edit src/vendor/site.raw.js or src/vendor/scenes.raw.js, then run node scripts/wrap-vendor.mjs to regenerate the lifecycle-wrapped runtime modules. Copy and design edits do not require regenerating these engines. Preserve route cleanup in src/vendor/pageEffects.js.

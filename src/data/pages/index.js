@@ -1,0 +1,16 @@
+import about from './about'
+import ai_automation from './ai-automation'
+import careers from './careers'
+import contact from './contact'
+import cx_solutions from './cx-solutions'
+import data_engineering from './data-engineering'
+import databricks_capabilities from './databricks-capabilities'
+import databricks_expertise from './databricks-expertise'
+import databricks_industries from './databricks-industries'
+import databricks from './databricks'
+import home from './home'
+import salesforce from './salesforce'
+import servicenow from './servicenow'
+import use_cases from './use-cases'
+
+export const pageConfigurations = { "about": about, "ai-automation": ai_automation, "careers": careers, "contact": contact, "cx-solutions": cx_solutions, "data-engineering": data_engineering, "databricks-capabilities": databricks_capabilities, "databricks-expertise": databricks_expertise, "databricks-industries": databricks_industries, "databricks": databricks, "home": home, "salesforce": salesforce, "servicenow": servicenow, "use-cases": use_cases }

@@ -388,7 +388,7 @@ h1 {
 }
 
 .hero h1.home {
-  font-size: var(--fs-display);
+  font-size: var(--fs-h1);
   line-height: 1.03;
   letter-spacing: -.035em;
 }
@@ -892,22 +892,22 @@ main {
 
 .sec-head {
   display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-columns: 50fr 50fr;
   gap: var(--s4) var(--s6);
   margin-bottom: var(--head-gap);
   align-items: end;
 }
 
-.sec-head .t {
+/* .sec-head .t {
   grid-column: 1 / span 6;
   display: grid;
   gap: var(--s4);
-}
+} */
 
-.sec-head .lead {
+/* .sec-head .lead {
   grid-column: 8 / -1;
   max-width: none;
-}
+} */
 
 @media (max-width: 900px) {
   .sec-head {
@@ -969,10 +969,6 @@ main {
 
 .hero .crumbs {
   margin-bottom: calc(var(--s2) * -1);
-}
-
-.hero h1 {
-  max-width: 15ch;
 }
 
 .hero .lead {
@@ -2225,7 +2221,6 @@ a.tile:focus-visible::before {
 }
 
 .cta .wrap {
-  padding-block: var(--sec-y);
   display: grid;
   gap: var(--s5);
 }
@@ -2971,7 +2966,7 @@ fieldset {
 }
 
 .cta {
-  padding-block: var(--sec-y);
+  padding-block: 0 var(--sec-y);
 }
 
 .cta::after {
