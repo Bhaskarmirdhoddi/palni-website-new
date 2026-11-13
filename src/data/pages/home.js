@@ -503,7 +503,7 @@ export default {
       "h3Props4": {
         "id": "h-cross-platform"
       },
-      "cardTitle4": "Cross-platform Solutions",
+      "cardTitle4": "Cross-Platform Solutions",
       "divSpace25": "\n          ",
       "pProps5": {
         "className": "lead"
