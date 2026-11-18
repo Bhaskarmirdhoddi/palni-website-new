@@ -423,52 +423,52 @@ export default {
     "key": "space-8",
     "content": "\n"
   },
-  {
-    "type": "TeamSection",
-    "key": "team",
-    "content": {
-      "sectionProps": {
-        "data-tone": "brand",
-        "className": "sec",
-        "id": "team",
-        "aria-labelledby": "h-team"
-      },
-      "divProps": {
-        "className": "wrap"
-      },
-      "divProps2": {
-        "className": "photo has-img"
-      },
-      "imgProps": {
-        "className": "ph-img",
-        "src": "/assets/img/palni-culture.webp",
-        "alt": "Palni teams at the annual festive day, Sankranti and team events",
-        "width": "1440",
-        "height": "600",
-        "loading": "lazy",
-        "decoding": "async"
-      },
-      "divProps3": {
-        "className": "ph-scrim"
-      },
-      "divSpace5": "\n",
-      "divProps4": {
-        "className": "ph-body"
-      },
-      "h2Props": {
-        "id": "h-team"
-      },
-      "heading": "Aim High. Together.",
-      "divProps5": {
-        "className": "btns"
-      },
-      "aProps": {
-        "className": "btn btn-primary",
-        "href": "/about#leadership"
-      },
-      "linkLabel": "Meet the Team"
-    }
-  },
+  // {
+  //   "type": "TeamSection",
+  //   "key": "team",
+  //   "content": {
+  //     "sectionProps": {
+  //       "data-tone": "brand",
+  //       "className": "sec",
+  //       "id": "team",
+  //       "aria-labelledby": "h-team"
+  //     },
+  //     "divProps": {
+  //       "className": "wrap"
+  //     },
+  //     "divProps2": {
+  //       "className": "photo has-img"
+  //     },
+  //     "imgProps": {
+  //       "className": "ph-img",
+  //       "src": "/assets/img/palni-culture.webp",
+  //       "alt": "Palni teams at the annual festive day, Sankranti and team events",
+  //       "width": "1440",
+  //       "height": "600",
+  //       "loading": "lazy",
+  //       "decoding": "async"
+  //     },
+  //     "divProps3": {
+  //       "className": "ph-scrim"
+  //     },
+  //     "divSpace5": "\n",
+  //     "divProps4": {
+  //       "className": "ph-body"
+  //     },
+  //     "h2Props": {
+  //       "id": "h-team"
+  //     },
+  //     "heading": "Aim High. Together.",
+  //     "divProps5": {
+  //       "className": "btns"
+  //     },
+  //     "aProps": {
+  //       "className": "btn btn-primary",
+  //       "href": "/about#leadership"
+  //     },
+  //     "linkLabel": "Meet the Team"
+  //   }
+  // },
   {
     "type": "text",
     "key": "space-10",
