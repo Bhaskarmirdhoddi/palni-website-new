@@ -3599,7 +3599,7 @@ fieldset {
 
 .tracks {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--s4);
 }
 
@@ -3707,6 +3707,8 @@ fieldset {
 .role>button {
   all: unset;
   box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
   cursor: pointer;
   width: 100%;
   display: grid;
@@ -3714,12 +3716,38 @@ fieldset {
   gap: var(--s4);
   align-items: center;
   padding: var(--s5) var(--s3);
-  border-radius: 8px;
-  transition: background .25s;
 }
 
-.role>button:hover {
-  background: rgb(var(--wash) / .04);
+.role>button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: var(--btn-bg);
+  transform: scaleY(0);
+  transform-origin: center bottom;
+  transition: transform .4s var(--ease);
+}
+
+@media (hover: hover) {
+  .role>button:hover {
+    color: var(--btn-fg);
+  }
+
+  .role>button:hover .m {
+    color: inherit;
+  }
+
+  .role>button:hover::before {
+    transform: scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .role>button::before {
+    transition: none;
+  }
 }
 
 .role>button:focus-visible {

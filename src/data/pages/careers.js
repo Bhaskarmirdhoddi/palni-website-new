@@ -644,41 +644,7 @@ export default {
         "className": "link more"
       },
       "label12": "Find your role",
-      "aProps5": {
-        "className": "track-card",
-        "href": "#openroles",
-        "data-track": "Business"
-      },
-      "spanProps17": {
-        "className": "pill"
-      },
-      "label13": "1 open",
-      "spanProps18": {
-        "className": "icb"
-      },
-      "svgProps5": {
-        "className": "ic",
-        "viewBox": "0 0 24 24",
-        "aria-hidden": "true",
-        "focusable": "false"
-      },
-      "pathProps5": {
-        "d": "M3 7h18v13H3z M8 7V4h8v3 M3 13h18"
-      },
-      "spanProps19": {
-        "className": "grow"
-      },
-      "label14": "Grow your",
-      "h3Props5": {
-        "className": "h4d"
-      },
-      "cardTitle5": "Business career",
-      "pProps6": {},
-      "description6": "Build relationships with enterprise teams and help them find the right starting point.",
-      "spanProps20": {
-        "className": "link more"
-      },
-      "label15": "Find your role"
+      
     }
   },
   {

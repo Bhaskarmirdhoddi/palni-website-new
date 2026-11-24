@@ -1,0 +1,334 @@
+[
+  {
+    "id": 714,
+    "slug": "5-ways-salesforce-marketing-cloud-can-improve-productivity-2",
+    "path": "/2024/04/29/5-ways-salesforce-marketing-cloud-can-improve-productivity-2/",
+    "title": "5 Ways Salesforce Marketing Cloud Can Improve Productivity",
+    "excerpt": "There are so many ways that leading platforms like Salesforce Marketing Cloud can help you improve productivity. In this post, we will unpack the ways Marketing Cloud helps organizations across the globe improve productivity. Instant Marketing and Selling Having…",
+    "published": "2024-04-29T12:04:06Z",
+    "modified": "2026-05-12T08:38:03Z",
+    "author": "bhaskar",
+    "categories": [
+      {
+        "name": "Blog",
+        "slug": "blog"
+      }
+    ],
+    "tags": [],
+    "image": {
+      "src": "/assets/blog/marketing-cloud.webp",
+      "alt": "Salesforce Marketing Cloud illustration",
+      "width": 815,
+      "height": 500
+    },
+    "minutes": 2,
+    "outline": [
+      {
+        "id": "section-1",
+        "label": "Instant Marketing and Selling",
+        "depth": 2
+      },
+      {
+        "id": "section-2",
+        "label": "Drive business with social advertising",
+        "depth": 2
+      },
+      {
+        "id": "section-3",
+        "label": "Add Intelligence for better decision making",
+        "depth": 2
+      },
+      {
+        "id": "section-4",
+        "label": "AI can help your team:",
+        "depth": 2
+      },
+      {
+        "id": "section-5",
+        "label": "Go Mobile",
+        "depth": 2
+      },
+      {
+        "id": "section-6",
+        "label": "It will help you :",
+        "depth": 2
+      },
+      {
+        "id": "section-7",
+        "label": "Wrap Up",
+        "depth": 2
+      },
+      {
+        "id": "section-8",
+        "label": "Adding Custom Objects in Salesforce",
+        "depth": 2
+      }
+    ],
+    "body": "<p>There are so many ways that leading platforms like Salesforce Marketing Cloud can help you improve productivity. In this post, we will unpack the ways Marketing Cloud helps organizations across the globe improve productivity.</p>\n<h2 id=\"section-1\">Instant Marketing and Selling</h2>\n<p>Having easy-to-build lead nurturing campaigns within the marketing cloud helps your team members with the ability to run their micro-campaigns for engaging and nurturing the leads on the fly, thus improving response time, personalization and capabilities.</p>\n<h2 id=\"section-2\">Drive business with social advertising</h2>\n<p>Social Advertising in the marketing cloud gives you the ability to create highly effective social advertising campaigns, target audience and make sure the right content reaches the right audience at the right time.</p>\n<h2 id=\"section-3\">Add Intelligence for better decision making</h2>\n<p>Use customer data, segmentation tools, and predictive analytics to determine the right message, channel and timing for each customer experience.</p>\n<h2 id=\"section-4\">AI can help your team:</h2>\n<p>⦁ Discover more about your customer preferences<br />⦁ Apply automation and integrate sales and marketing cloud to increase productivity<br />⦁ Predict better actions to move your customer relationships forward<br />⦁ Team collaboration in real-time:</p>\n<p>With the help of the Chatter feature, your team members can continuously communicate with their respective team members and collaborate about work-related information and also allow them to add more members and schedule their tasks easily. This keeps the entire team updated regarding the necessary information and improves the overall efficiency of the team.</p>\n<h2 id=\"section-5\">Go Mobile</h2>\n<p>Marketing cloud mobile helps your team access information from anywhere and strengthen relationships with customers.</p>\n<h2 id=\"section-6\">It will help you :</h2>\n<p>⦁ Avoid repetitive tasks<br />⦁ Streamline the processes<br />⦁ Avoid missing important notes, information, and updates</p>\n<h2 id=\"section-7\">Wrap Up</h2>\n<p>Salesforce Marketing Cloud includes several world-class tools that cover every possible marketing need for every organization. You can get better leads, boost your customer conversions, increase marketing ROI and create amazing experiences for your customers – with the power of Salesforce Marketing Cloud.</p>\n<h2 id=\"section-8\">Adding Custom Objects in Salesforce</h2>\n<p>Here’s a comprehensive tutorial on how you can add custom objects in Salesforce Sales Cloud.<br />Coming soon…</p>",
+    "missingImages": 0
+  },
+  {
+    "id": 708,
+    "slug": "efficiently-manage-the-entire-sales-process-using-cpq",
+    "path": "/2024/04/29/efficiently-manage-the-entire-sales-process-using-cpq/",
+    "title": "Efficiently manage the entire sales process using CPQ",
+    "excerpt": "Salesforce CPQ or Configure, Price, Quote is a great sales tool that allows you to efficiently manage the entire sales process. Sales reps love it and it’s easier to implement than you might think. But you have to know how to get the most out of it. Here are some…",
+    "published": "2024-04-29T11:56:26Z",
+    "modified": "2026-05-12T08:38:02Z",
+    "author": "bhaskar",
+    "categories": [
+      {
+        "name": "Blog",
+        "slug": "blog"
+      }
+    ],
+    "tags": [],
+    "image": {
+      "src": "/assets/blog/quote.webp",
+      "alt": "Sales quotation illustration",
+      "width": 815,
+      "height": 500
+    },
+    "minutes": 2,
+    "outline": [],
+    "body": "<p>Salesforce CPQ or Configure, Price, Quote is a great sales tool that allows you to efficiently manage the entire sales process. Sales reps love it and it’s easier to implement than you might think. But you have to know how to get the most out of it. Here are some things that can help you find success with CPQ.</p>\n<ul>\n<li>One of the most used features in Salesforce is the Quote to Cash process. CPQ, or Configure, Price, Quote is an intuitive system that solves a lot of problems for companies. In fact, they have been using it commercially for the last 5 years and have seen lots of success due to its speed and simplicity that allows more revenue to be collected.</li>\n<li>Salesforce CPQ allows you to create Demand (Configure), Quote, Order (Price) and Collect order (Collect) records for complex purchase orders. This is very powerful because you can configure a PO, generate a quote to fulfill that PO, and get an order to close the deal all from within the same application.</li>\n<li>With Salesforce CPQ, you can configure a complex PO. You can immediately generate quotes for that PO and then capture that deal as an order.</li>\n<li>Salesforce CPQ allows companies to streamline the configuration of complex purchase orders, making quotes bidirectional, and creating a faster revenue cycle.</li>\n<li>By streamlining the CPQ process, companies can attain operational efficiencies quicker and close more complex deals in record time.</li>\n</ul>\n<p>Configure, Price, Quote was developed to be a superior solution for companies looking to collect sales revenue faster and with less effort. Configure, Price, Quote makes it easy to put a price on any product. This gives your sales team the ability to sell more and close deals quicker.</p>",
+    "missingImages": 0
+  },
+  {
+    "id": 525,
+    "slug": "optimize-your-marketing-journey-with-salesforce-content-builder",
+    "path": "/2024/04/25/optimize-your-marketing-journey-with-salesforce-content-builder/",
+    "title": "Optimize your Marketing Journey with Salesforce Content Builder",
+    "excerpt": "Salesforce Marketing Cloud is a powerful automation platform that helps businesses drive their marketing efforts and convert leads into business opportunities. One of the key features of the Marketing Cloud is Content Builder, a cross-channel content management tool…",
+    "published": "2024-04-25T05:53:24Z",
+    "modified": "2026-05-12T08:38:00Z",
+    "author": "bhaskar",
+    "categories": [
+      {
+        "name": "Blog",
+        "slug": "blog"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Cloud & DevOps",
+        "slug": "cloud-devops"
+      }
+    ],
+    "image": {
+      "src": "/assets/blog/email1.webp",
+      "alt": "Email marketing illustration",
+      "width": 815,
+      "height": 500
+    },
+    "minutes": 3,
+    "outline": [
+      {
+        "id": "section-1",
+        "label": "Leverage these 5 features of Content Builder to set right your Marketing Journey.",
+        "depth": 2
+      },
+      {
+        "id": "section-2",
+        "label": "Email Templates and Content Blocks",
+        "depth": 3
+      },
+      {
+        "id": "section-3",
+        "label": "Email Personalization",
+        "depth": 3
+      },
+      {
+        "id": "section-4",
+        "label": "Interactive Emails",
+        "depth": 3
+      },
+      {
+        "id": "section-5",
+        "label": "Einstein for Emails",
+        "depth": 3
+      },
+      {
+        "id": "section-6",
+        "label": "Approvals",
+        "depth": 3
+      }
+    ],
+    "body": "<p>Salesforce Marketing Cloud is a powerful automation platform that helps businesses drive their marketing efforts and convert leads into business opportunities. One of the key features of the Marketing Cloud is Content Builder, a cross-channel content management tool that helps organizations consolidate all images, documents, and other content pieces in a single location for all marketing campaigns. This helps to organize content and use it directly in marketing messages.</p>\n<p>With the content editor you can:</p>\n<p>⦁ Save time with an easy to use interface<br />\n⦁ Create professional emails without any HTML expertise<br />\n⦁ Insert code snippets to insert common links<br />\n⦁ Add tags and campaign associations to associate related content</p>\n<h2 id=\"section-1\">Leverage these 5 features of Content Builder to set right your Marketing Journey.</h2>\n<h3 id=\"section-2\">Email Templates and Content Blocks</h3>\n<p>Content Builder email templates are responsive, reusable, and user-friendly templates where you can view emails on any device at any time. Content Builder helps you create email templates with content blocks and pre-built layouts and these layouts help you save time while allowing you to spend more time on content development rather than worrying about email template creation.</p>\n<h3 id=\"section-3\">Email Personalization</h3>\n<p>Content builder helps you personalize and create a highly individualized 1-1 impact. You can create static content blocks and individualized content blocks in email templates.<br />Static Content – is content that does not change for any reason, such as your organization logo at the top, social media links, and terms and conditions at the bottom of the email.<br />Individualized Content – is content that changes based on the recipient of the email and is often pulled from back-end databases at the time of email push. Individualized content can be developed with the use of Personalization Strings, Dynamic Content, and AMP Script.</p>\n<h3 id=\"section-4\">Interactive Emails</h3>\n<p>Develop engaging emails using the interactive features of Content Builder. Interactive email forms allow you to capture feedback, preferences, and other consumer-specific relevant information directly from the email.<br />You can create highly engaging emails using image carousels and design rich and engaging emails.</p>\n<h3 id=\"section-5\">Einstein for Emails</h3>\n<p>Einstein Artificial Intelligence helps you deliver the right messages at the right time to your consumers.<br />From content selection to send-time optimization to activity-based email deliveries helps you deliver personalized emails tailored to the recipient’s preferences and interests.</p>\n<h3 id=\"section-6\">Approvals</h3>\n<p>Content Builder helps you automate routine approval processes in email template development. Your marketing team can submit email templates for review and approval to the management and ensure the management team’s consent is obtained before sending the emails.</p>\n<p>To quickly summarize, Content Builder helps you:</p>\n<p>⦁ Save time with an easy drag-and-drop interface<br />⦁ Manage all assets in one place across channels<br />⦁ Create professional emails without any expertise in HTML<br />⦁ View changes to content in your email in real-time<br />⦁ Insert code snippets<br />⦁ Test dynamic content for each individual</p>",
+    "missingImages": 0
+  },
+  {
+    "id": 426,
+    "slug": "upgrade-your-salesforce-cpq-with-salesforce-billing-solutions",
+    "path": "/2024/04/23/upgrade-your-salesforce-cpq-with-salesforce-billing-solutions/",
+    "title": "Upgrade your Salesforce CPQ with Salesforce billing solutions",
+    "excerpt": "A standard CPQ solution isn’t enough for you if you are looking for a complete quoting & invoicing solution. And it also actually leaves out a considerable portion of the sales cycle for a customer. That’s why Salesforce offers a higher tier called CPQ+Billing to…",
+    "published": "2024-04-23T08:42:35Z",
+    "modified": "2026-05-12T08:37:58Z",
+    "author": "bhaskar",
+    "categories": [
+      {
+        "name": "Blog",
+        "slug": "blog"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Cloud & DevOps",
+        "slug": "cloud-devops"
+      }
+    ],
+    "image": {
+      "src": "/assets/blog/calc.webp",
+      "alt": "Billing and calculation illustration",
+      "width": 815,
+      "height": 500
+    },
+    "minutes": 3,
+    "outline": [
+      {
+        "id": "section-1",
+        "label": "Salesforce CPQ features:",
+        "depth": 2
+      },
+      {
+        "id": "section-2",
+        "label": "Salesforce Billing Features",
+        "depth": 2
+      },
+      {
+        "id": "section-3",
+        "label": "Below are some of the use cases where Salesforce CPQ users can integrate Salesforce Billing.",
+        "depth": 2
+      },
+      {
+        "id": "section-4",
+        "label": "Quote-to-Invoice Development",
+        "depth": 2
+      },
+      {
+        "id": "section-5",
+        "label": "Objective:",
+        "depth": 2
+      },
+      {
+        "id": "section-6",
+        "label": "Solution:",
+        "depth": 2
+      },
+      {
+        "id": "section-7",
+        "label": "Quote to cash with Automated Payment deployment Solution:",
+        "depth": 2
+      }
+    ],
+    "body": "<p>A standard CPQ solution isn’t enough for you if you are looking for a complete quoting &amp; invoicing solution. And it also actually leaves out a considerable portion of the sales cycle for a customer. That’s why Salesforce offers a higher tier called <strong>CPQ+Billing</strong> to manage your sales lifecycle, from quote to cash.<br /><strong>The Salesforce Billing</strong> is an add-on package that can be integrated to your standard CPQ solution. This integration helps you fetch all the key pricing records and information from CPQ. Once your team finalizes a quote and orders it within CPQ, the billing solution can help you scale the actions of your best sales reps across the entire sales organization through guided selling, pricing guidance, and margin protection.<br />Now’ let’s look at some of the <strong>Salesforce CPQ and Billing features:</strong></p>\n<h2 id=\"section-1\">Salesforce CPQ features:</h2>\n<p>⦁ CPQ platform helps you with configuration, pricing and prorate items on the cloud.<br />⦁ It helps you create contracts to record subscriptions for future sales transactions, amendments, and renewals.<br />⦁ You can create rules and preconfigured solutions to streamline the complex sales process<br />⦁ It gives the ability to create accurate, branded quotes in one click, with options to hide or reveal discounts and quote lines.</p>\n<h2 id=\"section-2\">Salesforce Billing Features</h2>\n<p>⦁ It helps you invoice an order and manage its balances through credit and debit notes.<br />⦁ Record all transactional data into finance books and finance periods, then map that financial data into your external general ledger or ERP.<br />⦁ Salesforce Rule Management &amp; Treatments in the Salesforce billing platform helps you create and define rules and treatments to group records for evaluation and take action on specific records within that group based on matching values.<br />⦁ Once Salesforce Billing performs certain actions, it evaluates all the invoice records that share the same rule and applies general changes to those records based on the rule’s settings. The rule also contains treatment records, which allow Salesforce Billing to apply more specific changes. Salesforce Billing applies a treatment to one of the group’s records only if the record and the treatment have the same legal entity.</p>\n<h2 id=\"section-3\">Below are some of the use cases where Salesforce CPQ users can integrate Salesforce Billing.</h2>\n<h2 id=\"section-4\">Quote-to-Invoice Development</h2>\n<h2 id=\"section-5\">Objective:</h2>\n<p>Automate invoice creation and revenue schedules within the CPQ platform</p>\n<h2 id=\"section-6\">Solution:</h2>\n<p>Salesforce CPQ and Billing Integration<br />Using the integration, the customer was able to decrease time spent on the invoice review, validation and save time on administrative tasks with improved forecasting using revenue schedule generation.</p>\n<h2 id=\"section-7\">Quote to cash with Automated Payment deployment<br />Solution:</h2>\n<p>Salesforce CPQ and Billing Integration<br />Using the integration, the customer used salesforce Billing’s built-in features and integrations to speed up payment collection, and improved cash flow.</p>",
+    "missingImages": 0
+  },
+  {
+    "id": 419,
+    "slug": "enables-sales-professionals-to-close-more-deals-using-einstein-ai",
+    "path": "/2024/04/23/enables-sales-professionals-to-close-more-deals-using-einstein-ai/",
+    "title": "Enables sales professionals to close more deals using Einstein AI",
+    "excerpt": "Sales Cloud Einstein incorporates AI technology into Salesforce’s key Sales cloud capabilities to provide additional insights and to create a data driven sales culture. This product enables sales professionals to find better prospects and close more deals through…",
+    "published": "2024-04-23T08:38:21Z",
+    "modified": "2026-05-12T08:37:56Z",
+    "author": "bhaskar",
+    "categories": [
+      {
+        "name": "Blog",
+        "slug": "blog"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Cloud & DevOps",
+        "slug": "cloud-devops"
+      }
+    ],
+    "image": {
+      "src": "/assets/blog/ai.webp",
+      "alt": "Artificial intelligence illustration",
+      "width": 815,
+      "height": 500
+    },
+    "minutes": 2,
+    "outline": [
+      {
+        "id": "section-1",
+        "label": "Environment and Licenses needed to use the feature:",
+        "depth": 2
+      },
+      {
+        "id": "section-2",
+        "label": "How does it help users?",
+        "depth": 2
+      },
+      {
+        "id": "section-3",
+        "label": "Verifying Your Readiness",
+        "depth": 3
+      },
+      {
+        "id": "section-4",
+        "label": "Expert Recommendation",
+        "depth": 3
+      }
+    ],
+    "body": "<p>Sales Cloud Einstein incorporates AI technology into Salesforce’s key Sales cloud capabilities to provide additional insights and to create a data driven sales culture. This product enables sales professionals to find better prospects and close more deals through predictive lead/opportunity scoring and automatic data capture to convert leads into opportunities and opportunities into deals.</p>\n<h2 id=\"section-1\">Environment and Licenses needed to use the feature:</h2>\n[table id=2 /]<p>Available in both the Lightning Experience and Salesforce Classic versions (although classic is said to be phased out soon).</p>\n<h2 id=\"section-2\">How does it help users?</h2>\n<p>Although Sales Cloud Einstein isn’t a mandatory tool to get the most out of the Sales Cloud, it does have strategic strengths that can take your Sales cloud and Sales team to the next level by:</p>\n[table id=3 /]<h3 id=\"section-3\">Verifying Your Readiness</h3>\n<p>For your reference, we listed first few data requirements below, however, please find the complete list here from Salesforce.</p>\n<ul>\n<li>You must have at least 30 business accounts.</li>\n<li>In the last 180 days:</li>\n<li style=\"margin-left: 20px;\">You must have created 1000 leads.</li>\n<li style=\"margin-left: 20px;\">Of these 1000 leads, at least 120 should be converted to an account and contact.</li>\n<li style=\"margin-left: 20px;\">At least 20 opportunities should be closed.</li>\n<li style=\"margin-left: 20px;\">Average time should be more than 7 days for these closed opportunities.</li>\n</ul>\n<p>Before going too deep down the road towards implementation, you’ll want to review limitations and goals of your organization/sales team – if they are aligning with the capabilities of this product in the budget you need or not? If you have any specific questions about Sales Cloud Einstein and your organization’s Salesforce account, you can always get in contact with our team of consultants.</p>\n<h3 id=\"section-4\">Expert Recommendation</h3>\n<p>Run the Sales Cloud Einstein Readiness Simulator: It is a tool that analyzes your account and provides a personalized report as to the readiness of your account for implementing the Sales Cloud Einstein tool. If your account isn’t ready or you still have requirements to meet, then the report will explain these to you in detail. Your account representative should also provide any additional insights about the process and answer remaining questions that you have about the setup.</p>",
+    "missingImages": 0
+  },
+  {
+    "id": 410,
+    "slug": "7-benefits-of-migrating-from-salesforce-classic-to-lightning",
+    "path": "/2024/04/23/7-benefits-of-migrating-from-salesforce-classic-to-lightning/",
+    "title": "7 Benefits Of Migrating From Salesforce Classic To Lightning",
+    "excerpt": "Is your organization still using Salesforce Classic and stuck deciding to migrate your org from Classic to lightning? You are likely missing your customers. Lightning framework is the new way to engage with your customers with a new, easy interface with less-code and…",
+    "published": "2024-04-23T08:25:17Z",
+    "modified": "2026-05-12T08:37:40Z",
+    "author": "bhaskar",
+    "categories": [
+      {
+        "name": "Blog",
+        "slug": "blog"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Cloud & DevOps",
+        "slug": "cloud-devops"
+      }
+    ],
+    "image": {
+      "src": "/assets/blog/content-builder.webp",
+      "alt": "Salesforce Lightning illustration",
+      "width": 815,
+      "height": 500
+    },
+    "minutes": 2,
+    "outline": [
+      {
+        "id": "section-1",
+        "label": "What makes Lightning different from Salesforce Classic?",
+        "depth": 2
+      },
+      {
+        "id": "section-2",
+        "label": "Contact Us Page Interface in Lightning",
+        "depth": 3
+      },
+      {
+        "id": "section-3",
+        "label": "Contact Us page Interface in Classic",
+        "depth": 3
+      },
+      {
+        "id": "section-4",
+        "label": "Wrapping up",
+        "depth": 3
+      }
+    ],
+    "body": "<p>Is your organization still using Salesforce Classic and stuck deciding to migrate your org from Classic to lightning? You are likely missing your customers. Lightning framework is the new way to engage with your customers with a new, easy interface with less-code and also helps you build large-scale web applications using Aura (Component) framework. But, migrating from Classic to Lightning can be tricky without right planning, research and testing.</p>\n<p>However, upgrading to salesforce lightning doesn’t have to be painful. With the right approach to research, planning and testing you can make the transition a smooth and seamless experience.</p>\n<p>Besides this smooth and seamless experience, it also offers many advantages at multiple levels:</p>\n<ul>\n<li>Improve ROI</li>\n<li>57% faster application development</li>\n<li>30% increase in team’s productivity</li>\n</ul>\n<h2 id=\"section-1\">What makes Lightning different from Salesforce Classic?</h2>\n<p>Although there are quite a number of useful features that will make you move from the classic to Salesforce Lightning but the top reasons that will make up your mind for a quick switch are shown below:</p>\n<h3 id=\"section-2\">Contact Us Page Interface in Lightning</h3>\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<h3 id=\"section-3\">Contact Us page Interface in Classic</h3>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t[table id=1 /]\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<h3 id=\"section-4\">Wrapping up</h3>\n<p>The seamless, intuitive, and intelligent design of Lightning is helping enterprises navigate Salesforce and work with the CRM with greater efficiency ultimately improving productivity by closing more deals. The modern UI, smart views, integrated dashboards, drag-and-drop capabilities, customizations, lightning components, and the power of AI is making Lightning succeed.</p>",
+    "missingImages": 2
+  }
+]

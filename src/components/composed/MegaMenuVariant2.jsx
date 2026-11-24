@@ -83,13 +83,6 @@ export default function MegaMenuVariant2({ content }) {
                   {content.bSpace3}
                   {content.label3}
                   {content.bSpace4}
-                  <svg {...content.svgProps4}>
-                    {content.svgSpace7}
-                    <path {...content.pathProps4}>
-                      {content.pathSpace4}
-                    </path>
-                    {content.svgSpace8}
-                  </svg>
                   {content.bSpace5}
                 </b>
                 {content.spanSpace11}
@@ -101,38 +94,6 @@ export default function MegaMenuVariant2({ content }) {
                 {content.spanSpace14}
               </span>
               {content.aSpace6}
-            </a>
-            {content.divSpace8}
-            <a {...content.aProps3}>
-              {content.aSpace7}
-              <span {...content.spanProps7}>
-                {content.spanSpace15}
-                <svg {...content.svgProps5}>
-                  {content.svgSpace9}
-                  <path {...content.pathProps5}>
-                    {content.pathSpace5}
-                  </path>
-                  {content.svgSpace10}
-                </svg>
-                {content.spanSpace16}
-              </span>
-              {content.aSpace8}
-              <span {...content.spanProps8}>
-                {content.spanSpace17}
-                <b {...content.bProps3}>
-                  {content.bSpace6}
-                  {content.label5}
-                  {content.bSpace7}
-                </b>
-                {content.spanSpace18}
-                <span {...content.spanProps9}>
-                  {content.spanSpace19}
-                  {content.label6}
-                  {content.spanSpace20}
-                </span>
-                {content.spanSpace21}
-              </span>
-              {content.aSpace9}
             </a>
             {content.divSpace9}
           </div>

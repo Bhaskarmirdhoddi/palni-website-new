@@ -3,7 +3,7 @@ import MobileNavigation from './MobileNavigation'
 import SiteFooter from './SiteFooter'
 import SectionRenderer from './SectionRenderer'
 
-export default function PageLayout({ content, sections }) {
+export default function PageLayout({ content, sections, children }) {
   return (
 <div {...content.divProps}>
   {content.divSpace}
@@ -38,7 +38,7 @@ export default function PageLayout({ content, sections }) {
   <MobileNavigation content={content.mobileNavigation} />
   {content.divSpace10}
   <main {...content.mainProps}>
-      <SectionRenderer sections={sections} />
+      {children ?? <SectionRenderer sections={sections} />}
     </main>
   {content.divSpace11}
   <SiteFooter content={content.siteFooter} />

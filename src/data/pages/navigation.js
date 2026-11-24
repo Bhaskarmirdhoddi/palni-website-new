@@ -447,9 +447,7 @@ const defaults = {
           "label2": "Challenges, what Palni did and outcomes.",
           "aProps2": {
             "className": "mg-s",
-            "href": "https://palni.com/blog/",
-            "target": "_blank",
-            "rel": "noopener"
+            "href": "/blog/"
           },
           "spanProps4": {
             "className": "icb sm"
@@ -465,45 +463,11 @@ const defaults = {
           },
           "spanProps5": {},
           "bProps2": {},
-          "label3": "Insights ",
-          "svgProps4": {
-            "className": "ext",
-            "viewBox": "0 0 12 12",
-            "aria-hidden": "true"
-          },
-          "pathProps4": {
-            "d": "M4.5 2.5h5v5M9.5 2.5l-7 7",
-            "fill": "none",
-            "stroke": "currentColor",
-            "strokeWidth": "1.3"
-          },
+          "label3": "Insights",
           "spanProps6": {
             "className": "d"
           },
           "label4": "Articles and perspectives.",
-          "aProps3": {
-            "className": "mg-s",
-            "href": ""
-          },
-          "spanProps7": {
-            "className": "icb sm"
-          },
-          "svgProps5": {
-            "className": "ic",
-            "viewBox": "0 0 24 24",
-            "aria-hidden": "true",
-            "focusable": "false"
-          },
-          "pathProps5": {
-            "d": "M5 15c-1.5 1.5-2 5-2 5s3.5-.5 5-2 M9 15l-3-3c1-5 5-9 12-9 0 7-4 11-9 12z M14.5 10.2a1.2 1.2 0 1 0 0-.01"
-          },
-          "spanProps8": {},
-          "bProps3": {},
-          "label5": "Accelerators",
-          "spanProps9": {
-            "className": "d"
-          },
-          "label6": "Databricks and ServiceNow accelerators.",
           "aProps4": {
             "className": "mg-feature",
             "href": "/use-cases#databricks"
@@ -932,9 +896,7 @@ const defaults = {
         },
         "linkLabel16": "Use Cases",
         "aProps17": {
-          "href": "https://palni.com/blog/",
-          "target": "_blank",
-          "rel": "noopener"
+          "href": "/blog/"
         },
         "linkLabel17": "Insights",
         "aProps18": {
@@ -1154,9 +1116,7 @@ const defaults = {
         "linkLabel": "Use Cases",
         "liProps2": {},
         "aProps2": {
-          "href": "https://palni.com/blog/",
-          "target": "_blank",
-          "rel": "noopener"
+          "href": "/blog/"
         },
         "linkLabel2": "Insights"
       },
@@ -1787,9 +1747,7 @@ const defaults = {
           "label2": "Challenges, what Palni did and\n                    outcomes.",
           "aProps2": {
             "className": "mg-s",
-            "href": "#",
-            "target": "_blank",
-            "rel": "noopener"
+            "href": "/blog/"
           },
           "spanProps4": {
             "className": "icb sm"
@@ -1807,49 +1765,11 @@ const defaults = {
           "svgSpace6": "\n                  ",
           "spanProps5": {},
           "bProps2": {},
-          "label3": "Insights ",
-          "svgProps4": {
-            "className": "ext",
-            "viewBox": "0 0 12 12",
-            "aria-hidden": "true"
-          },
-          "svgSpace7": "\n                      ",
-          "pathProps4": {
-            "d": "M4.5 2.5h5v5M9.5 2.5l-7 7",
-            "fill": "none",
-            "stroke": "currentColor",
-            "strokeWidth": "1.3"
-          },
-          "svgSpace8": "\n                    ",
+          "label3": "Insights",
           "spanProps6": {
             "className": "d"
           },
           "label4": "Articles and perspectives.",
-          "aProps3": {
-            "className": "mg-s",
-            "href": "#"
-          },
-          "spanProps7": {
-            "className": "icb sm"
-          },
-          "svgProps5": {
-            "className": "ic",
-            "viewBox": "0 0 24 24",
-            "aria-hidden": "true",
-            "focusable": "false"
-          },
-          "svgSpace9": "\n                    ",
-          "pathProps5": {
-            "d": "M5 15c-1.5 1.5-2 5-2 5s3.5-.5 5-2 M9 15l-3-3c1-5 5-9 12-9 0 7-4 11-9 12z M14.5 10.2a1.2 1.2 0 1 0 0-.01"
-          },
-          "svgSpace10": "\n                  ",
-          "spanProps8": {},
-          "bProps3": {},
-          "label5": "Accelerators",
-          "spanProps9": {
-            "className": "d"
-          },
-          "label6": "Databricks and ServiceNow\n                    accelerators.",
           "divSpace9": "\n            ",
           "aProps4": {
             "className": "mg-feature",
@@ -2324,9 +2244,7 @@ const defaults = {
         },
         "linkLabel16": "Use Cases",
         "aProps17": {
-          "href": "https://palni.com/blog/",
-          "target": "_blank",
-          "rel": "noopener"
+          "href": "/blog/"
         },
         "linkLabel17": "Insights",
         "aProps18": {
@@ -2576,9 +2494,7 @@ const defaults = {
         "ulSpace2": "\n          ",
         "liProps2": {},
         "aProps2": {
-          "href": "https://palni.com/blog/",
-          "target": "_blank",
-          "rel": "noopener"
+          "href": "/blog/"
         },
         "linkLabel2": "Insights",
         "ulSpace3": "\n        ",

@@ -121,7 +121,6 @@
   }
 }
 
-/* Keep homepage typography/layout customizations from changing inner pages. */
 .hero.sub h1.home {
   font-size: var(--fs-display);
 }
@@ -154,8 +153,6 @@ body[data-svc] .sec-head .lead,
     grid-column: 8 / -1;
   }
 }
-
-/* Ledger rows with a fourth aside slot must retain its desktop grid track. */
 @media (min-width: 761px) {
   body[data-svc] .ledger:not(.compact) .row {
     grid-template-columns: 48px minmax(0, 5fr) minmax(0, 6fr);
