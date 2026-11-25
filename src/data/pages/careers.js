@@ -474,179 +474,179 @@ export default {
     "key": "space-10",
     "content": "\n"
   },
-  {
-    "type": "TracksSection",
-    "key": "tracks",
-    "content": {
-      "sectionProps": {
-        "data-tone": "db",
-        "className": "sec",
-        "id": "tracks",
-        "aria-labelledby": "h-tracks"
-      },
-      "divProps": {
-        "className": "wrap"
-      },
-      "divProps2": {
-        "className": "sec-head"
-      },
-      "divProps3": {
-        "className": "t"
-      },
-      "h2Props": {
-        "id": "h-tracks"
-      },
-      "heading": "Create Your Career",
-      "pProps": {
-        "className": "lead"
-      },
-      "description": "Five tracks. Pick the work you want to grow in.",
-      "divProps4": {
-        "className": "tracks"
-      },
-      "aProps": {
-        "className": "track-card",
-        "href": "#openroles",
-        "data-track": "Engineering"
-      },
-      "spanProps": {
-        "className": "pill"
-      },
-      "label": "3 open",
-      "spanProps2": {
-        "className": "icb"
-      },
-      "svgProps": {
-        "className": "ic",
-        "viewBox": "0 0 24 24",
-        "aria-hidden": "true",
-        "focusable": "false"
-      },
-      "pathProps": {
-        "d": "M8 6l-6 6 6 6 M16 6l6 6-6 6 M13.5 4l-3 16"
-      },
-      "spanProps3": {
-        "className": "grow"
-      },
-      "label2": "Grow your",
-      "h3Props": {
-        "className": "h4d"
-      },
-      "cardTitle": "Engineering career",
-      "pProps2": {},
-      "description2": "Build and scale the platforms and products our clients rely on every day.",
-      "spanProps4": {
-        "className": "link more"
-      },
-      "label3": "Find your role",
-      "aProps2": {
-        "className": "track-card",
-        "href": "#openroles",
-        "data-track": "AI & Automation"
-      },
-      "spanProps5": {
-        "className": "pill"
-      },
-      "label4": "1 open",
-      "spanProps6": {
-        "className": "icb"
-      },
-      "svgProps2": {
-        "className": "ic",
-        "viewBox": "0 0 24 24",
-        "aria-hidden": "true",
-        "focusable": "false"
-      },
-      "pathProps2": {
-        "d": "M5 9h14v10H5z M12 5v4 M12 3.6a1.4 1.4 0 1 0 0 .01 M9 13.5v1 M15 13.5v1 M9.5 17h5 M2.5 12.5v3 M21.5 12.5v3"
-      },
-      "spanProps7": {
-        "className": "grow"
-      },
-      "label5": "Grow your",
-      "h3Props2": {
-        "className": "h4d"
-      },
-      "cardTitle2": "AI & Automation career",
-      "pProps3": {},
-      "description3": "Design bots and intelligent workflows, like our SmartBots suite, that take real work off people's plates.",
-      "spanProps8": {
-        "className": "link more"
-      },
-      "label6": "Find your role",
-      "aProps3": {
-        "className": "track-card",
-        "href": "#openroles",
-        "data-track": "Design"
-      },
-      "spanProps9": {
-        "className": "pill"
-      },
-      "label7": "1 open",
-      "spanProps10": {
-        "className": "icb"
-      },
-      "svgProps3": {
-        "className": "ic",
-        "viewBox": "0 0 24 24",
-        "aria-hidden": "true",
-        "focusable": "false"
-      },
-      "pathProps3": {
-        "d": "M12 19l7-7 3 3-7 7z M18 13l-1.5-7.5L2 2l3.5 14.5L13 18z M2 2l7.6 7.6 M11 13a2 2 0 1 0 0-.01"
-      },
-      "spanProps11": {
-        "className": "grow"
-      },
-      "label8": "Grow your",
-      "h3Props3": {
-        "className": "h4d"
-      },
-      "cardTitle3": "Design career",
-      "pProps4": {},
-      "description4": "Shape how people experience what we build, from first sketch to shipped screen.",
-      "spanProps12": {
-        "className": "link more"
-      },
-      "label9": "Find your role",
-      "aProps4": {
-        "className": "track-card",
-        "href": "#openroles",
-        "data-track": "People"
-      },
-      "spanProps13": {
-        "className": "pill"
-      },
-      "label10": "1 open",
-      "spanProps14": {
-        "className": "icb"
-      },
-      "svgProps4": {
-        "className": "ic",
-        "viewBox": "0 0 24 24",
-        "aria-hidden": "true",
-        "focusable": "false"
-      },
-      "pathProps4": {
-        "d": "M9 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z M2.5 20a6.5 6.5 0 0 1 13 0 M16 4.6a3.5 3.5 0 0 1 0 6.8 M18 14.2a6 6 0 0 1 3.5 5.8"
-      },
-      "spanProps15": {
-        "className": "grow"
-      },
-      "label11": "Grow your",
-      "h3Props4": {
-        "className": "h4d"
-      },
-      "cardTitle4": "People career",
-      "pProps5": {},
-      "description5": "Find, grow and look after the people who make Palni what it is.",
-      "spanProps16": {
-        "className": "link more"
-      },
-      "label12": "Find your role",
+  // {
+  //   "type": "TracksSection",
+  //   "key": "tracks",
+  //   "content": {
+  //     "sectionProps": {
+  //       "data-tone": "db",
+  //       "className": "sec",
+  //       "id": "tracks",
+  //       "aria-labelledby": "h-tracks"
+  //     },
+  //     "divProps": {
+  //       "className": "wrap"
+  //     },
+  //     "divProps2": {
+  //       "className": "sec-head"
+  //     },
+  //     "divProps3": {
+  //       "className": "t"
+  //     },
+  //     "h2Props": {
+  //       "id": "h-tracks"
+  //     },
+  //     "heading": "Create Your Career",
+  //     "pProps": {
+  //       "className": "lead"
+  //     },
+  //     "description": "Five tracks. Pick the work you want to grow in.",
+  //     "divProps4": {
+  //       "className": "tracks"
+  //     },
+  //     "aProps": {
+  //       "className": "track-card",
+  //       "href": "#openroles",
+  //       "data-track": "Engineering"
+  //     },
+  //     "spanProps": {
+  //       "className": "pill"
+  //     },
+  //     "label": "3 open",
+  //     "spanProps2": {
+  //       "className": "icb"
+  //     },
+  //     "svgProps": {
+  //       "className": "ic",
+  //       "viewBox": "0 0 24 24",
+  //       "aria-hidden": "true",
+  //       "focusable": "false"
+  //     },
+  //     "pathProps": {
+  //       "d": "M8 6l-6 6 6 6 M16 6l6 6-6 6 M13.5 4l-3 16"
+  //     },
+  //     "spanProps3": {
+  //       "className": "grow"
+  //     },
+  //     "label2": "Grow your",
+  //     "h3Props": {
+  //       "className": "h4d"
+  //     },
+  //     "cardTitle": "Engineering career",
+  //     "pProps2": {},
+  //     "description2": "Build and scale the platforms and products our clients rely on every day.",
+  //     "spanProps4": {
+  //       "className": "link more"
+  //     },
+  //     "label3": "Find your role",
+  //     "aProps2": {
+  //       "className": "track-card",
+  //       "href": "#openroles",
+  //       "data-track": "AI & Automation"
+  //     },
+  //     "spanProps5": {
+  //       "className": "pill"
+  //     },
+  //     "label4": "1 open",
+  //     "spanProps6": {
+  //       "className": "icb"
+  //     },
+  //     "svgProps2": {
+  //       "className": "ic",
+  //       "viewBox": "0 0 24 24",
+  //       "aria-hidden": "true",
+  //       "focusable": "false"
+  //     },
+  //     "pathProps2": {
+  //       "d": "M5 9h14v10H5z M12 5v4 M12 3.6a1.4 1.4 0 1 0 0 .01 M9 13.5v1 M15 13.5v1 M9.5 17h5 M2.5 12.5v3 M21.5 12.5v3"
+  //     },
+  //     "spanProps7": {
+  //       "className": "grow"
+  //     },
+  //     "label5": "Grow your",
+  //     "h3Props2": {
+  //       "className": "h4d"
+  //     },
+  //     "cardTitle2": "AI & Automation career",
+  //     "pProps3": {},
+  //     "description3": "Design bots and intelligent workflows, like our SmartBots suite, that take real work off people's plates.",
+  //     "spanProps8": {
+  //       "className": "link more"
+  //     },
+  //     "label6": "Find your role",
+  //     "aProps3": {
+  //       "className": "track-card",
+  //       "href": "#openroles",
+  //       "data-track": "Design"
+  //     },
+  //     "spanProps9": {
+  //       "className": "pill"
+  //     },
+  //     "label7": "1 open",
+  //     "spanProps10": {
+  //       "className": "icb"
+  //     },
+  //     "svgProps3": {
+  //       "className": "ic",
+  //       "viewBox": "0 0 24 24",
+  //       "aria-hidden": "true",
+  //       "focusable": "false"
+  //     },
+  //     "pathProps3": {
+  //       "d": "M12 19l7-7 3 3-7 7z M18 13l-1.5-7.5L2 2l3.5 14.5L13 18z M2 2l7.6 7.6 M11 13a2 2 0 1 0 0-.01"
+  //     },
+  //     "spanProps11": {
+  //       "className": "grow"
+  //     },
+  //     "label8": "Grow your",
+  //     "h3Props3": {
+  //       "className": "h4d"
+  //     },
+  //     "cardTitle3": "Design career",
+  //     "pProps4": {},
+  //     "description4": "Shape how people experience what we build, from first sketch to shipped screen.",
+  //     "spanProps12": {
+  //       "className": "link more"
+  //     },
+  //     "label9": "Find your role",
+  //     "aProps4": {
+  //       "className": "track-card",
+  //       "href": "#openroles",
+  //       "data-track": "People"
+  //     },
+  //     "spanProps13": {
+  //       "className": "pill"
+  //     },
+  //     "label10": "1 open",
+  //     "spanProps14": {
+  //       "className": "icb"
+  //     },
+  //     "svgProps4": {
+  //       "className": "ic",
+  //       "viewBox": "0 0 24 24",
+  //       "aria-hidden": "true",
+  //       "focusable": "false"
+  //     },
+  //     "pathProps4": {
+  //       "d": "M9 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z M2.5 20a6.5 6.5 0 0 1 13 0 M16 4.6a3.5 3.5 0 0 1 0 6.8 M18 14.2a6 6 0 0 1 3.5 5.8"
+  //     },
+  //     "spanProps15": {
+  //       "className": "grow"
+  //     },
+  //     "label11": "Grow your",
+  //     "h3Props4": {
+  //       "className": "h4d"
+  //     },
+  //     "cardTitle4": "People career",
+  //     "pProps5": {},
+  //     "description5": "Find, grow and look after the people who make Palni what it is.",
+  //     "spanProps16": {
+  //       "className": "link more"
+  //     },
+  //     "label12": "Find your role",
       
-    }
-  },
+  //   }
+  // },
   {
     "type": "text",
     "key": "space-12",
@@ -674,7 +674,7 @@ export default {
       "h2Props": {
         "id": "h-openroles"
       },
-      "heading": "Find Your Seat",
+      "heading": "Find Your Seat. ",
       "pProps": {
         "className": "lead"
       },

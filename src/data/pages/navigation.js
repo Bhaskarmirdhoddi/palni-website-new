@@ -2781,7 +2781,7 @@ const pageOverrides = {
         "aProps2": {
           "href": "/contact#databricks"
         },
-        "linkLabel": "Talk to a Databricks Expert"
+        // "linkLabel": "Talk to a Databricks Expert"
       }
     }
   },
@@ -2812,7 +2812,7 @@ const pageOverrides = {
         "aProps2": {
           "href": "/contact#databricks"
         },
-        "linkLabel": "Talk to a Databricks Expert"
+        // "linkLabel": "Talk to a Databricks Expert"
       }
     }
   },
@@ -2861,7 +2861,7 @@ const pageOverrides = {
         "aProps2": {
           "href": "/contact#databricks"
         },
-        "linkLabel": "Talk to a Databricks Expert"
+        // "linkLabel": "Talk to a Databricks Expert"
       }
     }
   },

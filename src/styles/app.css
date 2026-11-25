@@ -59,7 +59,7 @@
 }
 
 .service-intro {
-  padding-block: var(--sec-y) ;
+  padding-block: var(--sec-y);
 }
 
 .service-intro__head {
@@ -153,8 +153,24 @@ body[data-svc] .sec-head .lead,
     grid-column: 8 / -1;
   }
 }
+
 @media (min-width: 761px) {
   body[data-svc] .ledger:not(.compact) .row {
     grid-template-columns: 48px minmax(0, 5fr) minmax(0, 6fr);
+  }
+}
+
+#h-openroles {
+  font-size: var(--fs-h1);
+
+  &::after {
+    content: "";
+    display: inline-block;
+    width: .06em;
+    height: .9em;
+    margin-left: .08em;
+    background: var(--brand-hi);
+    vertical-align: -.05em;
+    animation: blink 1s steps(1) infinite;
   }
 }
