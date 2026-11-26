@@ -83,10 +83,26 @@ export const pages = [
   },
   {
     key: "contact",
-    path: "/contact",
-    htmlPath: "/contact.html",
+    path: "/contact-us",
+    htmlPath: "/contact-us.html",
     title: "Contact Palni | Start a Discovery",
     description: "Talk to Palni about Salesforce, ServiceNow or Databricks. Share your business priority and start a focused discovery conversation.",
+    svc: "brand",
+  },
+  {
+    key: "privacy-policy",
+    path: "/privacy-policy",
+    htmlPath: "/privacy-policy.html",
+    title: "Privacy Policy | Palni",
+    description: "Learn how Palni handles personal information, manages communications, and responds to privacy requests.",
+    svc: "brand",
+  },
+  {
+    key: "terms-conditions",
+    path: "/terms-conditions",
+    htmlPath: "/terms-conditions.html",
+    title: "Terms & Conditions | Palni",
+    description: "Learn about Palni’s website and service terms, including acceptable use, business engagements, and messaging.",
     svc: "brand",
   },
   {

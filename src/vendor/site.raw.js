@@ -215,18 +215,41 @@
     });
   };
   addEventListener('scroll', onScroll, { passive: true }); onScroll();
-  const closeMenus = () => document.querySelectorAll('.nav .item.open').forEach(x => { x.classList.remove('open'); x.querySelector('button.top')?.setAttribute('aria-expanded', 'false'); });
+  const closeMenus = (restoreFocus = false) => document.querySelectorAll('.nav .item.open').forEach(item => {
+    const button = item.querySelector('button.top');
+    item.classList.remove('open');
+    button?.setAttribute('aria-expanded', 'false');
+    if (restoreFocus && item.contains(document.activeElement)) button?.focus();
+  });
   document.querySelectorAll('.nav .item > button.top').forEach(b => {
     b.addEventListener('click', () => { const it = b.parentElement, open = !it.classList.contains('open'); closeMenus(); it.classList.toggle('open', open); b.setAttribute('aria-expanded', String(open)); });
   });
-  document.addEventListener('click', e => { if (!e.target.closest('.nav .item')) closeMenus(); });
+  document.addEventListener('click', e => { if (!e.target.closest('.nav .item') || e.target.closest('.nav .menu a')) closeMenus(); });
   const drawer = document.getElementById('drawer');
   const burger = document.querySelector('.hdr .burger');
-  function closeDrawer() { if (drawer && !drawer.hidden) { drawer.hidden = true; burger?.setAttribute('aria-expanded', 'false'); document.documentElement.style.overflow = ''; burger?.focus(); } }
-  burger?.addEventListener('click', () => { drawer.hidden = false; burger.setAttribute('aria-expanded', 'true'); document.documentElement.style.overflow = 'hidden'; drawer.querySelector('.close')?.focus(); });
-  drawer?.querySelector('.close')?.addEventListener('click', closeDrawer);
-  drawer?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { drawer.hidden = true; document.documentElement.style.overflow = ''; }));
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeMenus(); closeDrawer(); } });
+  function closeDrawer(restoreFocus = true) {
+    if (!drawer || drawer.hidden) return;
+    drawer.hidden = true;
+    burger?.setAttribute('aria-expanded', 'false');
+    document.documentElement.style.overflow = '';
+    if (restoreFocus) burger?.focus();
+  }
+  if (drawer && burger) {
+    burger.addEventListener('click', () => { drawer.hidden = false; burger.setAttribute('aria-expanded', 'true'); document.documentElement.style.overflow = 'hidden'; drawer.querySelector('.close')?.focus(); });
+    drawer.querySelector('.close')?.addEventListener('click', () => closeDrawer());
+    drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => closeDrawer(false)));
+    matchMedia('(max-width: 1080px)').addEventListener('change', event => { if (!event.matches) closeDrawer(false); });
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { closeMenus(true); closeDrawer(); }
+    if (e.key !== 'Tab' || !drawer || drawer.hidden) return;
+    const controls = [...drawer.querySelectorAll('a[href], button:not([disabled])')];
+    const first = controls[0], last = controls.at(-1);
+    if (!drawer.contains(document.activeElement) || document.activeElement === (e.shiftKey ? first : last)) {
+      e.preventDefault();
+      (e.shiftKey ? last : first)?.focus();
+    }
+  });
 
   /* ---------------- section tones: the background follows the story ---------------- */
   const TONES = {
@@ -314,22 +337,34 @@
       const t = a.dataset.track; if (chips.some(c => c.dataset.team === t)) { team = t; if (q) q.value = ''; run(); }
     }));
   }
-  const cv = document.getElementById('cv-form');
-  if (cv) cv.addEventListener('submit', e => {
-    e.preventDefault(); const v = document.getElementById('cv-email').value.trim(), m = document.getElementById('cv-msg');
-    m.textContent = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v) ? 'Thanks. Our talent team will be in touch. You can also email your CV to jobs@palni.com.' : 'Enter an email in the format name@email.com.';
-  });
-
   /* ---------------- tabs ---------------- */
   document.querySelectorAll('[role="tablist"]').forEach(list => {
     const tabs = [...list.querySelectorAll('[role="tab"]')];
+    if (list.classList.contains('xp-tabs')) {
+      const narrow = matchMedia('(max-width: 760px)');
+      const updateOrientation = () => list.setAttribute('aria-orientation', narrow.matches ? 'horizontal' : 'vertical');
+      updateOrientation();
+      narrow.addEventListener('change', updateOrientation);
+    }
     const select = (tab, focus) => {
       tabs.forEach(t => { const on = t === tab; t.setAttribute('aria-selected', String(on)); t.tabIndex = on ? 0 : -1; const p = document.getElementById(t.getAttribute('aria-controls')); if (p) p.hidden = !on; });
       if (focus) tab.focus();
     };
     tabs.forEach((t, i) => {
       t.addEventListener('click', () => select(t));
-      t.addEventListener('keydown', e => { const d = (e.key === 'ArrowRight' || e.key === 'ArrowDown') ? 1 : (e.key === 'ArrowLeft' || e.key === 'ArrowUp') ? -1 : 0; if (d) { e.preventDefault(); select(tabs[(i + d + tabs.length) % tabs.length], true); } });
+      t.addEventListener('keydown', e => {
+        const vertical = list.getAttribute('aria-orientation') === 'vertical';
+        const previous = vertical ? 'ArrowUp' : 'ArrowLeft';
+        const next = vertical ? 'ArrowDown' : 'ArrowRight';
+        let index;
+        if (e.key === previous) index = (i - 1 + tabs.length) % tabs.length;
+        else if (e.key === next) index = (i + 1) % tabs.length;
+        else if (e.key === 'Home') index = 0;
+        else if (e.key === 'End') index = tabs.length - 1;
+        else return;
+        e.preventDefault();
+        select(tabs[index], true);
+      });
     });
   });
 
@@ -341,7 +376,7 @@
     const count = f => f === 'all' ? cards.length : cards.filter(c => c.dataset.tag === f).length;
     btns.forEach(b => { const s = b.querySelector('.n'); if (s) s.textContent = count(b.dataset.filter); });
     const apply = f => { btns.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.filter === f))); cards.forEach(c => { c.hidden = !(f === 'all' || c.dataset.tag === f); }); const st = document.getElementById('filter-status'); if (st) st.textContent = count(f) + ' use cases shown'; };
-    btns.forEach(b => b.addEventListener('click', () => { apply(b.dataset.filter); try { history.replaceState(null, '', b.dataset.filter === 'all' ? location.pathname : '#' + b.dataset.filter); } catch (e) {} }));
+    btns.forEach(b => b.addEventListener('click', () => { apply(b.dataset.filter); try { history.replaceState(history.state, '', location.pathname + location.search + (b.dataset.filter === 'all' ? '' : '#' + b.dataset.filter)); } catch (e) {} }));
     const fromHash = () => { const h = location.hash.slice(1); apply(btns.some(b => b.dataset.filter === h) ? h : 'all'); };
     fromHash(); addEventListener('hashchange', fromHash);
   }
@@ -370,26 +405,48 @@
 /* ---------------- outcome slider ---------------- */
 (function () {
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const logos = document.querySelector('.trust-sec');
+  const logoToggle = logos?.querySelector('[data-rotation-toggle]');
+  logoToggle?.addEventListener('click', () => {
+    const paused = logos.classList.toggle('is-paused');
+    logoToggle.setAttribute('aria-pressed', String(paused));
+  });
   document.querySelectorAll('.slider').forEach(sl => {
     const slides = [...sl.querySelectorAll('.slide')], dots = [...sl.querySelectorAll('.sl-dot')];
     if (slides.length < 2) return;
-    let i = 0, timer = null;
+    const toggle = sl.querySelector('[data-rotation-toggle]');
+    let i = 0, timer = null, visible = false, paused = false;
     const show = n => {
       i = (n + slides.length) % slides.length;
       slides.forEach((s, k) => { s.hidden = k !== i; });
       dots.forEach((d, k) => d.setAttribute('aria-current', String(k === i)));
       const c = sl.querySelector('.sl-count b'); if (c) c.textContent = i + 1;
     };
-    const play = () => { if (reduce) return; clearInterval(timer); timer = setInterval(() => show(i + 1), 7000); };
     const stop = () => clearInterval(timer);
+    const play = () => {
+      stop();
+      if (!reduce && visible && !paused && !sl.matches(':hover') && !sl.contains(document.activeElement)) {
+        timer = setInterval(() => show(i + 1), 7000);
+      }
+    };
+    toggle?.addEventListener('click', () => {
+      paused = !paused;
+      toggle.setAttribute('aria-pressed', String(paused));
+      play();
+    });
     sl.querySelector('.prev')?.addEventListener('click', () => { show(i - 1); play(); });
     sl.querySelector('.next')?.addEventListener('click', () => { show(i + 1); play(); });
     dots.forEach((d, k) => d.addEventListener('click', () => { show(k); play(); }));
     sl.addEventListener('mouseenter', stop); sl.addEventListener('mouseleave', play);
-    sl.addEventListener('focusin', stop); sl.addEventListener('focusout', play);
-    sl.addEventListener('keydown', e => { if (e.key === 'ArrowRight') { show(i + 1); } if (e.key === 'ArrowLeft') { show(i - 1); } });
+    sl.addEventListener('focusin', stop);
+    sl.addEventListener('focusout', e => { if (!sl.contains(e.relatedTarget)) requestAnimationFrame(play); });
+    sl.addEventListener('keydown', e => {
+      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+      e.preventDefault();
+      show(i + (e.key === 'ArrowRight' ? 1 : -1));
+    });
     let x0 = null; sl.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; }, { passive: true });
     sl.addEventListener('touchend', e => { if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) show(i + (dx < 0 ? 1 : -1)); x0 = null; });
-    new IntersectionObserver(es => es.forEach(en => en.isIntersecting ? play() : stop())).observe(sl);
+    new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; play(); }).observe(sl);
   });
 })();

@@ -1,6 +1,7 @@
 // Extracted from local content; copy, links and visual variants arrive through props.
 import { Fragment } from 'react'
 import OutcomeSlideVariant2 from './OutcomeSlideVariant2'
+import RotationButton from './RotationButton'
 
 export default function UsecasesSection({ content }) {
   return (
@@ -81,6 +82,7 @@ export default function UsecasesSection({ content }) {
             {content.divSpace17}
           </div>
           {content.divSpace18}
+          <RotationButton className="sl-arrow" label="Pause outcome carousel" />
           <span {...content.spanProps}>
             {content.spanSpace}
             <b {...content.bProps}>

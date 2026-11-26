@@ -1,4 +1,5 @@
 // Extracted from local content; copy, links and visual variants arrive through props.
+import RotationButton from './RotationButton'
 
 
 export default function TrustSection({ content }) {
@@ -153,6 +154,9 @@ export default function TrustSection({ content }) {
         {content.divSpace6}
       </div>
       {content.sectionSpace3}
+      {/* <div className="wrap trust-controls">
+        <RotationButton className="btn btn-ghost btn-sm" label="Pause client logo animation" />
+      </div> */}
     </section>
   )
 }

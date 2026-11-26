@@ -1688,35 +1688,11 @@ export default {
       },
       "description": "Send us your CV and a few lines on what you'd love to build at Palni. Our talent team reads every note.",
       "divSpace7": "\n",
-      "formProps": {
-        "className": "cv",
-        "id": "cv-form",
-        "noValidate": true
-      },
-      "labelProps": {
-        "htmlFor": "cv-email",
-        "style": {
-          "position": "absolute",
-          "left": "-9999px"
-        }
-      },
-      "text": "Email address",
-      "inputProps": {
-        "id": "cv-email",
-        "type": "email",
-        "placeholder": "you@email.com",
-        "autoComplete": "email"
-      },
-      "buttonProps": {
+      "aProps": {
         "className": "btn btn-primary",
-        "type": "submit"
+        "href": "mailto:jobs@palni.com"
       },
-      "buttonLabel": "Get in Touch",
-      "pProps2": {
-        "className": "cv-msg",
-        "id": "cv-msg",
-        "role": "status"
-      },
+      "linkLabel": "Email Your CV",
       "divSpace10": "\n",
       "divProps5": {
         "style": {
@@ -1794,7 +1770,7 @@ export default {
         },
         "label": "214 501 0690",
         "aProps2": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "svgProps3": {
           "className": "ic",

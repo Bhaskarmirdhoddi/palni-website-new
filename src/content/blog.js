@@ -22,7 +22,6 @@ export function blogMetadata(post, page = 1) {
     mainEntityOfPage: url,
     datePublished: post.published,
     dateModified: post.modified,
-    author: post.author ? { '@type': 'Person', name: post.author } : undefined,
     publisher: { '@type': 'Organization', name: 'Palni' },
     articleSection: post.categories.map(category => category.name),
     keywords: post.tags.map(tag => tag.name).join(', ') || undefined,

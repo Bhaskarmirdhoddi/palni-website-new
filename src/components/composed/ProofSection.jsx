@@ -1,6 +1,7 @@
 // Extracted from local content; copy, links and visual variants arrive through props.
 import OutcomeSlide from './OutcomeSlide'
 import OutcomeSlideVariant2 from './OutcomeSlideVariant2'
+import RotationButton from './RotationButton'
 
 export default function ProofSection({ content }) {
   return (
@@ -84,6 +85,7 @@ export default function ProofSection({ content }) {
             {content.divSpace20}
           </div>
           {content.divSpace21}
+          <RotationButton className="sl-arrow" label="Pause outcome carousel" />
           <span {...content.spanProps}>
             {content.spanSpace}
             <b {...content.bProps}>

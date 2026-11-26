@@ -27,6 +27,7 @@ export default {
   "divSpace9": "\n",
   "divSpace10": "\n",
   "mainProps": {
+    "className": "service-page",
     "id": "main"
   },
   "divSpace11": "\n"
@@ -174,7 +175,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Start with a Discovery",
       "aProps2": {
@@ -556,7 +557,7 @@ export default {
       "text3": "Platform design",
       "aProps": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Talk to us about data platforms",
       "figureProps": {
@@ -600,7 +601,7 @@ export default {
       "text6": "Scalable analytics",
       "aProps2": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel2": "Talk to us about warehousing",
       "figureProps2": {
@@ -644,7 +645,7 @@ export default {
       "text9": "Event processing",
       "aProps3": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel3": "Talk to us about integration and pipelines",
       "figureProps3": {
@@ -688,7 +689,7 @@ export default {
       "text12": "Business insights",
       "aProps4": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel4": "Talk to us about analytics",
       "figureProps4": {
@@ -732,7 +733,7 @@ export default {
       "text15": "Analytics engineering",
       "aProps5": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel5": "Talk to us about transformation",
       "figureProps5": {
@@ -776,7 +777,7 @@ export default {
       "text18": "Compliance",
       "aProps6": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel6": "Talk to us about governance",
       "figureProps6": {
@@ -827,7 +828,7 @@ export default {
         "description": "We will review quality, pipelines, reporting and AI readiness, and find the first gap worth fixing.",
         "aProps": {
           "className": "btn btn-primary",
-          "href": "/contact"
+          "href": "/contact-us"
         },
         "linkLabel": "Start with a Discovery ",
         "svgProps": {
@@ -885,7 +886,7 @@ export default {
           "content": {
             "aProps": {
               "className": "tile offer",
-              "href": "/contact"
+              "href": "/contact-us"
             },
             "spanProps": {
               "className": "pill"
@@ -925,7 +926,7 @@ export default {
           "content": {
             "aProps": {
               "className": "tile offer",
-              "href": "/contact"
+              "href": "/contact-us"
             },
             "spanProps": {
               "className": "pill"
@@ -965,7 +966,7 @@ export default {
           "content": {
             "aProps": {
               "className": "tile offer",
-              "href": "/contact"
+              "href": "/contact-us"
             },
             "spanProps": {
               "className": "pill"
@@ -1005,7 +1006,7 @@ export default {
           "content": {
             "aProps": {
               "className": "tile offer",
-              "href": "/contact"
+              "href": "/contact-us"
             },
             "spanProps": {
               "className": "pill"
@@ -1549,7 +1550,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Start with a Discovery",
       "aProps2": {
@@ -1647,7 +1648,7 @@ export default {
         },
         "label": "214 501 0690",
         "aProps2": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "svgProps3": {
           "className": "ic",

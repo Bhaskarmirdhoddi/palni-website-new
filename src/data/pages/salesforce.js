@@ -152,7 +152,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Start with a Discovery",
       "aProps2": {
@@ -645,7 +645,7 @@ export default {
         "description": "Tell us where pipeline, quoting or service work slows down. We will point to the first fix worth making.",
         "aProps": {
           "className": "btn btn-primary",
-          "href": "/contact"
+          "href": "/contact-us"
         },
         "linkLabel": "Start with a Discovery ",
         "svgProps": {
@@ -1077,7 +1077,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Start with a Discovery",
       "aProps2": {
@@ -1175,7 +1175,7 @@ export default {
         },
         "label": "214 501 0690",
         "aProps2": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "svgProps3": {
           "className": "ic",

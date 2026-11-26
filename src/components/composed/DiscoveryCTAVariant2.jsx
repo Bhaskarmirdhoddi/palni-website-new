@@ -29,28 +29,9 @@ export default function DiscoveryCTAVariant2({ content }) {
                 {content.pSpace2}
               </p>
               {content.divSpace7}
-              <form {...content.formProps}>
-                {content.formSpace}
-                <label {...content.labelProps}>
-                  {content.labelSpace}
-                  {content.text}
-                  {content.labelSpace2}
-                </label>
-                {content.formSpace2}
-                <input {...content.inputProps} />
-                {content.formSpace3}
-                <button {...content.buttonProps}>
-                  {content.buttonSpace}
-                  {content.buttonLabel}
-                  {content.buttonSpace2}
-                </button>
-                {content.formSpace4}
-              </form>
-              {content.divSpace8}
-              <p {...content.pProps2}>
-                {content.pSpace3}
-              </p>
-              {content.divSpace9}
+              <div className="btns">
+                <a {...content.aProps}>{content.linkLabel}</a>
+              </div>
             </div>
             {content.divSpace10}
             <div {...content.divProps5}>

@@ -176,7 +176,7 @@ export default {
       "pProps": {
         "className": "lead"
       },
-      "description": "Share a few details about your priority and the right Palni team will follow up.",
+      "description": "Select the platform and business priority that best match your enquiry.",
       "divSpace7": "\n",
       "formProps": {
         "id": "enquiry",
@@ -193,6 +193,7 @@ export default {
       "text": "Name",
       "inputProps": {
         "id": "f-name",
+        "aria-describedby": "f-name-err",
         "name": "name",
         "autoComplete": "name",
         "required": true,
@@ -212,6 +213,7 @@ export default {
       "text2": "Work email",
       "inputProps2": {
         "id": "f-email",
+        "aria-describedby": "f-email-err",
         "name": "email",
         "type": "email",
         "autoComplete": "email",
@@ -232,6 +234,7 @@ export default {
       "text3": "Company",
       "inputProps3": {
         "id": "f-company",
+        "aria-describedby": "f-company-err",
         "name": "company",
         "autoComplete": "organization",
         "required": true,
@@ -404,14 +407,14 @@ export default {
       "spanProps17": {},
       "label14": "By providing your phone number, you agree to receive text messages from Palni. Message and data rates may apply. Message frequency varies. To stop receiving messages, reply 'STOP' at any time. For more information, reply 'HELP'. ",
       "aProps": {
-        "href": "https://palni.com/privacy-policy/",
+        "href": "/privacy-policy",
         "target": "_blank",
         "rel": "noopener"
       },
       "linkLabel": "Privacy Policy",
       "label15": " and ",
       "aProps2": {
-        "href": "https://palni.com/terms-conditions/",
+        "href": "/terms-conditions",
         "target": "_blank",
         "rel": "noopener"
       },
@@ -428,7 +431,7 @@ export default {
         "className": "btn btn-primary",
         "type": "submit"
       },
-      "buttonLabel": "Submit Enquiry ",
+      "buttonLabel": "Preview Enquiry ",
       "svgProps": {
         "className": "ic",
         "viewBox": "0 0 24 24",
@@ -441,7 +444,7 @@ export default {
       "pProps2": {
         "className": "small muted"
       },
-      "description2": "This prototype does not send data. The live form will route to the right Palni team.",
+      "description2": "This form is a preview. Use the email or phone links to contact Palni.",
       "formSpace10": "\n",
       "divSpace42": "\n",
       "divProps14": {
@@ -454,27 +457,22 @@ export default {
       "h3Props": {
         "className": "h3d"
       },
-      "cardTitle": "Thank You. We Have Received Your Enquiry.",
+      "cardTitle": "Enquiry Preview Complete",
       "pProps3": {
         "className": "muted"
       },
-      "description3": "Thank you for contacting Palni. Your message has been received and will go to the relevant team. If your request is urgent, use the contact details on this page.",
+      "description3": "To send your enquiry, use the email or phone links on this page.",
       "divProps15": {},
       "buttonProps2": {
         "className": "btn btn-ghost btn-sm",
         "id": "enquiry-again",
         "type": "button"
       },
-      "buttonLabel2": "Send another enquiry",
+      "buttonLabel2": "Start a new preview",
       "divSpace49": "\n",
       "divSpace50": "\n",
       "asideProps": {
-        "aria-labelledby": "h-other",
-        "style": {
-          "display": "grid",
-          "gap": "var(--s4)",
-          "alignContent": "start"
-        }
+        "aria-labelledby": "h-other"
       },
       "h2Props2": {
         "className": "h3d",
@@ -484,91 +482,33 @@ export default {
       "pProps4": {
         "className": "muted"
       },
-      "description4": "For sales, careers or training, contact the team directly.",
+      "description4": "For direct assistance, call Palni or email the team that can help.",
       "divProps16": {
         "className": "routes"
       },
-      "divProps17": {
-        "className": "route"
-      },
-      "spanProps18": {
-        "className": "icb sm"
-      },
-      "svgProps2": {
-        "className": "ic",
-        "viewBox": "0 0 24 24",
-        "aria-hidden": "true",
-        "focusable": "false"
-      },
-      "pathProps2": {
-        "d": "M3 5h18v14H3z M3.5 6l8.5 7 8.5-7"
-      },
-      "divProps18": {},
-      "bProps": {},
-      "label17": "General Enquiries",
-      "spanProps19": {},
-      "label18": "info@palni.com | 214 501 0690",
-      "divProps19": {
-        "className": "route"
-      },
-      "spanProps20": {
-        "className": "icb sm"
-      },
-      "svgProps3": {
-        "className": "ic",
-        "viewBox": "0 0 24 24",
-        "aria-hidden": "true",
-        "focusable": "false"
-      },
-      "pathProps3": {
-        "d": "M3 7h18v13H3z M8 7V4h8v3 M3 13h18"
-      },
-      "divProps20": {},
-      "bProps2": {},
-      "label19": "Sales Enquiries",
-      "spanProps21": {},
-      "label20": "sales@palni.com | 214 501 0690",
-      "divProps21": {
-        "className": "route"
-      },
-      "spanProps22": {
-        "className": "icb sm"
-      },
-      "svgProps4": {
-        "className": "ic",
-        "viewBox": "0 0 24 24",
-        "aria-hidden": "true",
-        "focusable": "false"
-      },
-      "pathProps4": {
-        "d": "M9 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z M2.5 20a6.5 6.5 0 0 1 13 0 M16 4.6a3.5 3.5 0 0 1 0 6.8 M18 14.2a6 6 0 0 1 3.5 5.8"
-      },
-      "divProps22": {},
-      "bProps3": {},
-      "label21": "Job Enquiries",
-      "spanProps23": {},
-      "label22": "jobs@palni.com | 214 501 0690",
-      "divProps23": {
-        "className": "route"
-      },
-      "spanProps24": {
-        "className": "icb sm"
-      },
-      "svgProps5": {
-        "className": "ic",
-        "viewBox": "0 0 24 24",
-        "aria-hidden": "true",
-        "focusable": "false"
-      },
-      "pathProps5": {
-        "d": "M2 9l10-5 10 5-10 5z M6 11v5c3 2 9 2 12 0v-5 M22 9v6"
-      },
-      "divProps24": {},
-      "bProps4": {},
-      "label23": "Training Enquiries",
-      "spanProps25": {},
-      "label24": "skilling@palni.com | 214 501 0690",
-      "divSpace80": "\n"
+      "teams": [
+        {
+          "label": "General Enquiries",
+          "email": "info@palni.com",
+          "icon": "M3 5h18v14H3z M3.5 6l8.5 7 8.5-7"
+        },
+        {
+          "label": "Sales Enquiries",
+          "email": "sales@palni.com",
+          "icon": "M3 7h18v13H3z M8 7V4h8v3 M3 13h18"
+        },
+        {
+          "label": "Job Enquiries",
+          "email": "jobs@palni.com",
+          "icon": "M9 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z M2.5 20a6.5 6.5 0 0 1 13 0 M16 4.6a3.5 3.5 0 0 1 0 6.8 M18 14.2a6 6 0 0 1 3.5 5.8"
+        },
+        {
+          "label": "Training Enquiries",
+          "email": "skilling@palni.com",
+          "icon": "M2 9l10-5 10 5-10 5z M6 11v5c3 2 9 2 12 0v-5 M22 9v6"
+        }
+      ],
+      "phone": { "href": "tel:+12145010690", "label": "214 501 0690" }
     }
   },
   {

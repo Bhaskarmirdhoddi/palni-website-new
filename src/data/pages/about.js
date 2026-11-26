@@ -1269,7 +1269,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-ghost",
-        "href": "/contact#locations"
+        "href": "/contact-us#locations"
       },
       "linkLabel": "See All Office Locations"
     }
@@ -1648,7 +1648,7 @@ export default {
         },
         "label": "214 501 0690",
         "aProps2": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "svgProps3": {
           "className": "ic",

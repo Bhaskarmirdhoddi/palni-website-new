@@ -1,8 +1,14 @@
-import { Navigate, Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
+import { redirects } from '../../vercel.json'
 import { routeList } from '../content/pages'
 import ReferencePage from '../pages/ReferencePage'
 import BlogPage from '../pages/BlogPage'
 import { posts } from '../content/blog'
+
+function Redirect({ to }) {
+  const { search, hash } = useLocation()
+  return <Navigate to={{ pathname: to, search, hash }} replace />
+}
 
 export default function AppRoutes() {
   return (
@@ -14,6 +20,9 @@ export default function AppRoutes() {
       ))}
       {routeList.map(({ path, page }) => (
         <Route key={path} path={path} element={<ReferencePage page={page} />} />
+      ))}
+      {redirects.map(({ source, destination }) => (
+        <Route key={source} path={source} element={<Redirect to={destination} />} />
       ))}
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

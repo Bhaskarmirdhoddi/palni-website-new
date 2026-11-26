@@ -162,12 +162,6 @@ export default function MobileNavigationVariant2({ content }) {
           {content.linkLabel20}
           {content.aSpace40}
         </a>
-        {content.divSpace28}
-        <a {...content.aProps21}>
-          {content.aSpace41}
-          {content.linkLabel21}
-          {content.aSpace42}
-        </a>
         {content.divSpace29}
         <a {...content.aProps22}>
           {content.aSpace43}

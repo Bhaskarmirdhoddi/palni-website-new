@@ -138,39 +138,6 @@ export default function MegaMenuVariant3({ content }) {
               </span>
               {content.aSpace14}
             </a>
-            {content.divSpace9}
-            <a {...content.aProps7}>
-              {content.aSpace15}
-              <span {...content.spanProps7}>
-                {content.spanSpace15}
-                <svg {...content.svgProps4}>
-                  {content.svgSpace7}
-                  <path {...content.pathProps4}>
-                    {content.pathSpace4}
-                  </path>
-                  {content.svgSpace8}
-                </svg>
-                {content.spanSpace16}
-              </span>
-              {content.aSpace16}
-              <span {...content.spanProps8}>
-                {content.spanSpace17}
-                <b {...content.bProps3}>
-                  {content.bSpace5}
-                  {content.label5}
-                  {content.bSpace6}
-                </b>
-                {content.spanSpace18}
-                <span {...content.spanProps9}>
-                  {content.spanSpace19}
-                  {content.label6}
-                  {content.spanSpace20}
-                </span>
-                {content.spanSpace21}
-              </span>
-              {content.aSpace17}
-            </a>
-            {content.divSpace10}
           </div>
           {content.divSpace11}
           <div {...content.divProps5}>

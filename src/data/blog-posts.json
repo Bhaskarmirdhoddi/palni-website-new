@@ -1,13 +1,12 @@
 [
   {
     "id": 714,
-    "slug": "5-ways-salesforce-marketing-cloud-can-improve-productivity-2",
-    "path": "/2024/04/29/5-ways-salesforce-marketing-cloud-can-improve-productivity-2/",
+    "slug": "ways-salesforce-marketing-cloud-can-improve-productivity",
+    "path": "/blog/ways-salesforce-marketing-cloud-can-improve-productivity/",
     "title": "5 Ways Salesforce Marketing Cloud Can Improve Productivity",
     "excerpt": "There are so many ways that leading platforms like Salesforce Marketing Cloud can help you improve productivity. In this post, we will unpack the ways Marketing Cloud helps organizations across the globe improve productivity. Instant Marketing and Selling Having…",
     "published": "2024-04-29T12:04:06Z",
     "modified": "2026-05-12T08:38:03Z",
-    "author": "bhaskar",
     "categories": [
       {
         "name": "Blog",
@@ -70,12 +69,11 @@
   {
     "id": 708,
     "slug": "efficiently-manage-the-entire-sales-process-using-cpq",
-    "path": "/2024/04/29/efficiently-manage-the-entire-sales-process-using-cpq/",
+    "path": "/blog/efficiently-manage-the-entire-sales-process-using-cpq/",
     "title": "Efficiently manage the entire sales process using CPQ",
     "excerpt": "Salesforce CPQ or Configure, Price, Quote is a great sales tool that allows you to efficiently manage the entire sales process. Sales reps love it and it’s easier to implement than you might think. But you have to know how to get the most out of it. Here are some…",
     "published": "2024-04-29T11:56:26Z",
     "modified": "2026-05-12T08:38:02Z",
-    "author": "bhaskar",
     "categories": [
       {
         "name": "Blog",
@@ -97,12 +95,11 @@
   {
     "id": 525,
     "slug": "optimize-your-marketing-journey-with-salesforce-content-builder",
-    "path": "/2024/04/25/optimize-your-marketing-journey-with-salesforce-content-builder/",
+    "path": "/blog/optimize-your-marketing-journey-with-salesforce-content-builder/",
     "title": "Optimize your Marketing Journey with Salesforce Content Builder",
     "excerpt": "Salesforce Marketing Cloud is a powerful automation platform that helps businesses drive their marketing efforts and convert leads into business opportunities. One of the key features of the Marketing Cloud is Content Builder, a cross-channel content management tool…",
     "published": "2024-04-25T05:53:24Z",
     "modified": "2026-05-12T08:38:00Z",
-    "author": "bhaskar",
     "categories": [
       {
         "name": "Blog",
@@ -160,12 +157,11 @@
   {
     "id": 426,
     "slug": "upgrade-your-salesforce-cpq-with-salesforce-billing-solutions",
-    "path": "/2024/04/23/upgrade-your-salesforce-cpq-with-salesforce-billing-solutions/",
+    "path": "/blog/upgrade-your-salesforce-cpq-with-salesforce-billing-solutions/",
     "title": "Upgrade your Salesforce CPQ with Salesforce billing solutions",
     "excerpt": "A standard CPQ solution isn’t enough for you if you are looking for a complete quoting & invoicing solution. And it also actually leaves out a considerable portion of the sales cycle for a customer. That’s why Salesforce offers a higher tier called CPQ+Billing to…",
     "published": "2024-04-23T08:42:35Z",
     "modified": "2026-05-12T08:37:58Z",
-    "author": "bhaskar",
     "categories": [
       {
         "name": "Blog",
@@ -228,12 +224,11 @@
   {
     "id": 419,
     "slug": "enables-sales-professionals-to-close-more-deals-using-einstein-ai",
-    "path": "/2024/04/23/enables-sales-professionals-to-close-more-deals-using-einstein-ai/",
+    "path": "/blog/enables-sales-professionals-to-close-more-deals-using-einstein-ai/",
     "title": "Enables sales professionals to close more deals using Einstein AI",
     "excerpt": "Sales Cloud Einstein incorporates AI technology into Salesforce’s key Sales cloud capabilities to provide additional insights and to create a data driven sales culture. This product enables sales professionals to find better prospects and close more deals through…",
     "published": "2024-04-23T08:38:21Z",
     "modified": "2026-05-12T08:37:56Z",
-    "author": "bhaskar",
     "categories": [
       {
         "name": "Blog",
@@ -280,13 +275,12 @@
   },
   {
     "id": 410,
-    "slug": "7-benefits-of-migrating-from-salesforce-classic-to-lightning",
-    "path": "/2024/04/23/7-benefits-of-migrating-from-salesforce-classic-to-lightning/",
+    "slug": "benefits-of-migrating-from-salesforce-classic-to-lightning",
+    "path": "/blog/benefits-of-migrating-from-salesforce-classic-to-lightning/",
     "title": "7 Benefits Of Migrating From Salesforce Classic To Lightning",
     "excerpt": "Is your organization still using Salesforce Classic and stuck deciding to migrate your org from Classic to lightning? You are likely missing your customers. Lightning framework is the new way to engage with your customers with a new, easy interface with less-code and…",
     "published": "2024-04-23T08:25:17Z",
     "modified": "2026-05-12T08:37:40Z",
-    "author": "bhaskar",
     "categories": [
       {
         "name": "Blog",

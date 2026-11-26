@@ -382,7 +382,7 @@ const defaults = {
           "label7": "Not sure where to start? Tell us the problem and we will bring the right team.",
           "aProps4": {
             "className": "link",
-            "href": "/contact"
+            "href": "/contact-us"
           },
           "linkLabel": "Start with a Discovery"
         },
@@ -571,7 +571,7 @@ const defaults = {
           "linkLabel3": "Principles",
           "liProps4": {},
           "aProps5": {
-            "href": "/contact#locations"
+            "href": "/contact-us#locations"
           },
           "linkLabel4": "Offices",
           "aProps6": {
@@ -597,29 +597,6 @@ const defaults = {
             "className": "d"
           },
           "label4": "Open roles and life at Palni.",
-          "aProps7": {
-            "className": "mg-s",
-            "href": "/contact"
-          },
-          "spanProps7": {
-            "className": "icb sm"
-          },
-          "svgProps4": {
-            "className": "ic",
-            "viewBox": "0 0 24 24",
-            "aria-hidden": "true",
-            "focusable": "false"
-          },
-          "pathProps4": {
-            "d": "M3 5h18v14H3z M3.5 6l8.5 7 8.5-7"
-          },
-          "spanProps8": {},
-          "bProps3": {},
-          "label5": "Contact",
-          "spanProps9": {
-            "className": "d"
-          },
-          "label6": "Talk to the right team.",
           "divProps5": {
             "className": "mg-group"
           },
@@ -683,7 +660,7 @@ const defaults = {
         "navSpace5": "\n    ",
         "aProps2": {
           "className": "top",
-          "href": "/contact"
+          "href": "/contact-us"
         },
         "linkLabel2": "Contact",
         "navSpace6": "\n  "
@@ -720,7 +697,7 @@ const defaults = {
       "divSpace5": "\n    ",
       "aProps2": {
         "className": "btn btn-primary btn-sm",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Start with a Discovery",
       "divSpace6": "\n    ",
@@ -917,10 +894,6 @@ const defaults = {
           "href": "/careers"
         },
         "linkLabel20": "Careers",
-        "aProps21": {
-          "href": "/contact"
-        },
-        "linkLabel21": "Contact",
         "aProps22": {
           "className": "s",
           "href": "https://palnies.com/",
@@ -960,7 +933,7 @@ const defaults = {
         "navSpace5": "\n    ",
         "aProps24": {
           "className": "btn btn-primary",
-          "href": "/contact"
+          "href": "/contact-us"
         },
         "linkLabel24": "Start with a Discovery",
         "navSpace6": "\n  "
@@ -1148,12 +1121,12 @@ const defaults = {
         "linkLabel3": "Careers",
         "liProps4": {},
         "aProps4": {
-          "href": "/contact"
+          "href": "/contact-us"
         },
         "linkLabel4": "Contact",
         "liProps5": {},
         "aProps5": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "linkLabel5": "Offices",
         "liProps6": {},
@@ -1220,15 +1193,11 @@ const defaults = {
           "aria-label": "Legal"
         },
         "aProps": {
-          "href": "https://palni.com/privacy-policy/",
-          "target": "_blank",
-          "rel": "noopener"
+          "href": "/privacy-policy"
         },
         "linkLabel": "Privacy Policy",
         "aProps2": {
-          "href": "https://palni.com/terms-conditions/",
-          "target": "_blank",
-          "rel": "noopener"
+          "href": "/terms-conditions"
         },
         "linkLabel2": "Terms & Conditions"
       },
@@ -1672,7 +1641,7 @@ const defaults = {
           "label7": "Not sure where to start? Tell us the problem and we will bring the right\n              team.",
           "aProps4": {
             "className": "link",
-            "href": "/contact"
+            "href": "/contact-us"
           },
           "linkLabel": "Start with a Discovery",
           "divSpace19": "\n        ",
@@ -1889,7 +1858,7 @@ const defaults = {
           "ulSpace4": "\n                ",
           "liProps4": {},
           "aProps5": {
-            "href": "/contact#locations"
+            "href": "/contact-us#locations"
           },
           "linkLabel4": "Offices",
           "ulSpace5": "\n              ",
@@ -1918,32 +1887,6 @@ const defaults = {
             "className": "d"
           },
           "label4": "Open roles and life at Palni.",
-          "aProps7": {
-            "className": "mg-s",
-            "href": "/contact"
-          },
-          "spanProps7": {
-            "className": "icb sm"
-          },
-          "svgProps4": {
-            "className": "ic",
-            "viewBox": "0 0 24 24",
-            "aria-hidden": "true",
-            "focusable": "false"
-          },
-          "svgSpace7": "\n                    ",
-          "pathProps4": {
-            "d": "M3 5h18v14H3z M3.5 6l8.5 7 8.5-7"
-          },
-          "svgSpace8": "\n                  ",
-          "spanProps8": {},
-          "bProps3": {},
-          "label5": "Contact",
-          "spanProps9": {
-            "className": "d"
-          },
-          "label6": "Talk to the right team.",
-          "divSpace10": "\n            ",
           "divSpace11": "\n            ",
           "divProps5": {
             "className": "mg-group"
@@ -2017,7 +1960,7 @@ const defaults = {
         "navSpace5": "\n      ",
         "aProps2": {
           "className": "top",
-          "href": "/contact"
+          "href": "/contact-us"
         },
         "linkLabel2": "Contact",
         "navSpace6": "\n    "
@@ -2058,7 +2001,7 @@ const defaults = {
       "divSpace5": "\n      ",
       "aProps2": {
         "className": "btn btn-primary btn-sm",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Start with a Discovery",
       "divSpace6": "\n      ",
@@ -2267,10 +2210,6 @@ const defaults = {
           "href": "/careers"
         },
         "linkLabel20": "Careers",
-        "aProps21": {
-          "href": "/contact"
-        },
-        "linkLabel21": "Contact",
         "aProps22": {
           "className": "s",
           "href": "https://palnies.com/",
@@ -2315,7 +2254,7 @@ const defaults = {
         "navSpace5": "\n    ",
         "aProps24": {
           "className": "btn btn-primary",
-          "href": "/contact"
+          "href": "/contact-us"
         },
         "linkLabel24": "Start with a Discovery",
         "navSpace6": "\n  "
@@ -2534,13 +2473,13 @@ const defaults = {
         "ulSpace4": "\n          ",
         "liProps4": {},
         "aProps4": {
-          "href": "/contact"
+          "href": "/contact-us"
         },
         "linkLabel4": "Contact",
         "ulSpace5": "\n          ",
         "liProps5": {},
         "aProps5": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "linkLabel5": "Offices",
         "ulSpace6": "\n          ",
@@ -2617,15 +2556,11 @@ const defaults = {
           "aria-label": "Legal"
         },
         "aProps": {
-          "href": "https://palni.com/privacy-policy/",
-          "target": "_blank",
-          "rel": "noopener"
+          "href": "/privacy-policy"
         },
         "linkLabel": "Privacy Policy",
         "aProps2": {
-          "href": "https://palni.com/terms-conditions/",
-          "target": "_blank",
-          "rel": "noopener"
+          "href": "/terms-conditions"
         },
         "linkLabel2": "Terms & Conditions"
       },
@@ -2700,9 +2635,6 @@ const pageOverrides = {
             },
             "aProps": {
               "aria-current": null
-            },
-            "aProps7": {
-              "aria-current": "page"
             }
           },
           "aProps2": {
@@ -2779,7 +2711,7 @@ const pageOverrides = {
           }
         },
         "aProps2": {
-          "href": "/contact#databricks"
+          "href": "/contact-us#databricks"
         },
         // "linkLabel": "Talk to a Databricks Expert"
       }
@@ -2810,7 +2742,7 @@ const pageOverrides = {
           }
         },
         "aProps2": {
-          "href": "/contact#databricks"
+          "href": "/contact-us#databricks"
         },
         // "linkLabel": "Talk to a Databricks Expert"
       }
@@ -2833,7 +2765,7 @@ const pageOverrides = {
           }
         },
         "aProps2": {
-          "href": "/contact#databricks"
+          "href": "/contact-us#databricks"
         },
         "linkLabel": "Talk to a Databricks Expert"
       }
@@ -2859,7 +2791,7 @@ const pageOverrides = {
           }
         },
         "aProps2": {
-          "href": "/contact#databricks"
+          "href": "/contact-us#databricks"
         },
         // "linkLabel": "Talk to a Databricks Expert"
       }
@@ -2868,6 +2800,22 @@ const pageOverrides = {
   "home": {
     "base": "formatted",
     "overrides": {}
+  },
+  "privacy-policy": {
+    "base": "formatted",
+    "overrides": {
+      "siteFooter": {
+        "legalNavigation": { "aProps": { "aria-current": "page" } }
+      }
+    }
+  },
+  "terms-conditions": {
+    "base": "formatted",
+    "overrides": {
+      "siteFooter": {
+        "legalNavigation": { "aProps2": { "aria-current": "page" } }
+      }
+    }
   },
   "salesforce": {
     "base": "compact",

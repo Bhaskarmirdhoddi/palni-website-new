@@ -1,5 +1,47 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/contact",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/2024/04/29/5-ways-salesforce-marketing-cloud-can-improve-productivity-2/",
+      "destination": "/blog/ways-salesforce-marketing-cloud-can-improve-productivity/",
+      "permanent": true
+    },
+    {
+      "source": "/2024/04/29/efficiently-manage-the-entire-sales-process-using-cpq/",
+      "destination": "/blog/efficiently-manage-the-entire-sales-process-using-cpq/",
+      "permanent": true
+    },
+    {
+      "source": "/2024/04/25/optimize-your-marketing-journey-with-salesforce-content-builder/",
+      "destination": "/blog/optimize-your-marketing-journey-with-salesforce-content-builder/",
+      "permanent": true
+    },
+    {
+      "source": "/2024/04/23/upgrade-your-salesforce-cpq-with-salesforce-billing-solutions/",
+      "destination": "/blog/upgrade-your-salesforce-cpq-with-salesforce-billing-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/2024/04/23/enables-sales-professionals-to-close-more-deals-using-einstein-ai/",
+      "destination": "/blog/enables-sales-professionals-to-close-more-deals-using-einstein-ai/",
+      "permanent": true
+    },
+    {
+      "source": "/2024/04/23/7-benefits-of-migrating-from-salesforce-classic-to-lightning/",
+      "destination": "/blog/benefits-of-migrating-from-salesforce-classic-to-lightning/",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",

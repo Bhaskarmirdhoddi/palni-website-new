@@ -362,137 +362,21 @@ export default function FormSection({ content }) {
               {content.description4}
               {content.pSpace8}
             </p>
-            {content.asideSpace3}
+            <p><a href={content.phone.href}>{content.phone.label}</a></p>
             <div {...content.divProps16}>
-              {content.divSpace51}
-              <div {...content.divProps17}>
-                {content.divSpace52}
-                <span {...content.spanProps18}>
-                  {content.spanSpace36}
-                  <svg {...content.svgProps2}>
-                    {content.svgSpace3}
-                    <path {...content.pathProps2}>
-                      {content.pathSpace2}
-                    </path>
-                    {content.svgSpace4}
-                  </svg>
-                  {content.spanSpace37}
-                </span>
-                {content.divSpace53}
-                <div {...content.divProps18}>
-                  {content.divSpace54}
-                  <b {...content.bProps}>
-                    {content.bSpace}
-                    {content.label17}
-                    {content.bSpace2}
-                  </b>
-                  {content.divSpace55}
-                  <span {...content.spanProps19}>
-                    {content.spanSpace38}
-                    {content.label18}
-                    {content.spanSpace39}
+              {content.teams.map(({ label, email, icon }) => (
+                <div className="route" key={email}>
+                  <span className="icb sm">
+                    <svg className="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path d={icon} />
+                    </svg>
                   </span>
-                  {content.divSpace56}
+                  <div>
+                    <b>{label}</b>
+                    <a href={`mailto:${email}`}>{email}</a>
+                  </div>
                 </div>
-                {content.divSpace57}
-              </div>
-              {content.divSpace58}
-              <div {...content.divProps19}>
-                {content.divSpace59}
-                <span {...content.spanProps20}>
-                  {content.spanSpace40}
-                  <svg {...content.svgProps3}>
-                    {content.svgSpace5}
-                    <path {...content.pathProps3}>
-                      {content.pathSpace3}
-                    </path>
-                    {content.svgSpace6}
-                  </svg>
-                  {content.spanSpace41}
-                </span>
-                {content.divSpace60}
-                <div {...content.divProps20}>
-                  {content.divSpace61}
-                  <b {...content.bProps2}>
-                    {content.bSpace3}
-                    {content.label19}
-                    {content.bSpace4}
-                  </b>
-                  {content.divSpace62}
-                  <span {...content.spanProps21}>
-                    {content.spanSpace42}
-                    {content.label20}
-                    {content.spanSpace43}
-                  </span>
-                  {content.divSpace63}
-                </div>
-                {content.divSpace64}
-              </div>
-              {content.divSpace65}
-              <div {...content.divProps21}>
-                {content.divSpace66}
-                <span {...content.spanProps22}>
-                  {content.spanSpace44}
-                  <svg {...content.svgProps4}>
-                    {content.svgSpace7}
-                    <path {...content.pathProps4}>
-                      {content.pathSpace4}
-                    </path>
-                    {content.svgSpace8}
-                  </svg>
-                  {content.spanSpace45}
-                </span>
-                {content.divSpace67}
-                <div {...content.divProps22}>
-                  {content.divSpace68}
-                  <b {...content.bProps3}>
-                    {content.bSpace5}
-                    {content.label21}
-                    {content.bSpace6}
-                  </b>
-                  {content.divSpace69}
-                  <span {...content.spanProps23}>
-                    {content.spanSpace46}
-                    {content.label22}
-                    {content.spanSpace47}
-                  </span>
-                  {content.divSpace70}
-                </div>
-                {content.divSpace71}
-              </div>
-              {content.divSpace72}
-              <div {...content.divProps23}>
-                {content.divSpace73}
-                <span {...content.spanProps24}>
-                  {content.spanSpace48}
-                  <svg {...content.svgProps5}>
-                    {content.svgSpace9}
-                    <path {...content.pathProps5}>
-                      {content.pathSpace5}
-                    </path>
-                    {content.svgSpace10}
-                  </svg>
-                  {content.spanSpace49}
-                </span>
-                {content.divSpace74}
-                <div {...content.divProps24}>
-                  {content.divSpace75}
-                  <b {...content.bProps4}>
-                    {content.bSpace7}
-                    {content.label23}
-                    {content.bSpace8}
-                  </b>
-                  {content.divSpace76}
-                  <span {...content.spanProps25}>
-                    {content.spanSpace50}
-                    {content.label24}
-                    {content.spanSpace51}
-                  </span>
-                  {content.divSpace77}
-                </div>
-                {content.divSpace78}
-              </div>
-              {content.divSpace79}
+              ))}
             </div>
             {content.asideSpace4}
           </aside>

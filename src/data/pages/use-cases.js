@@ -134,7 +134,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Start with a Discovery"
     }

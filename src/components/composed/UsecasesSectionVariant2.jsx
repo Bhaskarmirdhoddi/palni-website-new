@@ -2,6 +2,7 @@
 import { Fragment } from 'react'
 import OutcomeSlide from './OutcomeSlide'
 import OutcomeSlideVariant2 from './OutcomeSlideVariant2'
+import RotationButton from './RotationButton'
 
 export default function UsecasesSectionVariant2({ content }) {
   return (
@@ -84,6 +85,7 @@ export default function UsecasesSectionVariant2({ content }) {
             {content.divSpace18}
           </div>
           {content.divSpace19}
+          <RotationButton className="sl-arrow" label="Pause outcome carousel" />
           <span {...content.spanProps}>
             {content.spanSpace}
             <b {...content.bProps}>

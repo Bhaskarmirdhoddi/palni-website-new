@@ -3,7 +3,7 @@ import MobileNavigationVariant2 from './MobileNavigationVariant2'
 
 export default function MobileNavigation({ content }) {
   return (
-    <div {...content.divProps}>
+    <div {...content.divProps} role="dialog" aria-modal="true" aria-label="Site navigation">
       {content.divSpace}
       <div {...content.divProps2}>
         {content.divSpace2}

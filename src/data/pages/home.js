@@ -148,7 +148,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Start with a Discovery",
       "aProps2": {
@@ -181,15 +181,14 @@ export default {
       },
       "divSpace": "\n      ",
       "h2Props": {
-        "className": "who",
         "id": "h-trust"
       },
       "heading": "Trusted by Enterprise Teams",
       "divSpace2": "\n      ",
       "pProps": {
-        "className": "muted small"
+        "className": "lead"
       },
-      "description": "We work with enterprise teams across industries to improve the systems, workflows and data\n        that support their business.",
+      "description": "We work with enterprise teams across industries to improve the systems, workflows and data that support their business.",
       "divSpace3": "\n    ",
       "sectionSpace2": "\n    ",
       "divProps2": {
@@ -1366,14 +1365,14 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact"
+        "href": "#services"
       },
-      "linkLabel": "Start with a Discovery",
+      "linkLabel": "Explore Solutions",
       "aProps2": {
         "className": "btn btn-ghost",
-        "href": "/use-cases"
+        "href": "#how"
       },
-      "linkLabel2": "View Use Cases",
+      "linkLabel2": "See How We Work",
       "divSpace11": "\n          ",
       "divSpace12": "\n          ",
       "discoverySteps": {
@@ -1489,7 +1488,7 @@ export default {
         "svgSpace4": "\n            ",
         "label": "214 501 0690",
         "aProps2": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "svgProps3": {
           "className": "ic",

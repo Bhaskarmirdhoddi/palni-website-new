@@ -174,7 +174,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact#databricks"
+        "href": "/contact-us#databricks"
       },
       "linkLabel": "Talk to a Databricks Expert",
       "divSpace7": "\n    ",
@@ -461,7 +461,7 @@ export default {
       "pProps": {
         "className": "lead"
       },
-      "description": "Frame outcomes before the specific solution examples.",
+      "description": "Improve growth, manage risk and streamline operations with trusted data and AI.",
       "divSpace6": "\n      ",
       "divSpace7": "\n      ",
       "divProps4": {
@@ -568,7 +568,7 @@ export default {
     "key": "solutions",
     "content": {
       "sectionProps": {
-        "data-tone": "brand",
+        "data-tone": "db",
         "className": "sec",
         "id": "solutions",
         "aria-labelledby": "h-solutions"
@@ -1163,7 +1163,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact#databricks"
+        "href": "/contact-us#databricks"
       },
       "linkLabel": "Talk to a Databricks Expert",
       "aProps2": {
@@ -1285,7 +1285,7 @@ export default {
         "svgSpace4": "\n            ",
         "label": "214 501 0690",
         "aProps2": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "svgProps3": {
           "className": "ic",

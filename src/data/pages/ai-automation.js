@@ -27,6 +27,7 @@ export default {
   "divSpace9": "\n",
   "divSpace10": "\n",
   "mainProps": {
+    "className": "service-page",
     "id": "main"
   },
   "divSpace11": "\n"
@@ -164,7 +165,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Start with a Discovery",
       "aProps2": {
@@ -546,7 +547,7 @@ export default {
       "text3": "Exception handling",
       "aProps": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Talk to us about workflow automation",
       "figureProps": {
@@ -590,7 +591,7 @@ export default {
       "text6": "Orchestration",
       "aProps2": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel2": "Talk to us about integration",
       "figureProps2": {
@@ -634,7 +635,7 @@ export default {
       "text9": "Governed actions",
       "aProps3": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel3": "Talk to us about Agentic AI",
       "figureProps3": {
@@ -678,7 +679,7 @@ export default {
       "text12": "Ticket capture",
       "aProps4": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel4": "Talk to us about Voice AI",
       "figureProps4": {
@@ -722,7 +723,7 @@ export default {
       "text15": "Grounded answers",
       "aProps5": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel5": "Talk to us about Knowledge AI",
       "figureProps5": {
@@ -766,7 +767,7 @@ export default {
       "text18": "Automated decisions",
       "aProps6": {
         "className": "link more",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel6": "Talk to us about Data AI",
       "figureProps6": {
@@ -817,7 +818,7 @@ export default {
         "description": "We will find one process where AI can take real work off the team, with the data and guardrails to run it.",
         "aProps": {
           "className": "btn btn-primary",
-          "href": "/contact"
+          "href": "/contact-us"
         },
         "linkLabel": "Start with a Discovery ",
         "svgProps": {
@@ -875,7 +876,7 @@ export default {
           "content": {
             "aProps": {
               "className": "tile offer",
-              "href": "/contact"
+              "href": "/contact-us"
             },
             "spanProps": {
               "className": "pill"
@@ -915,7 +916,7 @@ export default {
           "content": {
             "aProps": {
               "className": "tile offer",
-              "href": "/contact"
+              "href": "/contact-us"
             },
             "spanProps": {
               "className": "pill"
@@ -955,7 +956,7 @@ export default {
           "content": {
             "aProps": {
               "className": "tile offer",
-              "href": "/contact"
+              "href": "/contact-us"
             },
             "spanProps": {
               "className": "pill"
@@ -995,7 +996,7 @@ export default {
           "content": {
             "aProps": {
               "className": "tile offer",
-              "href": "/contact"
+              "href": "/contact-us"
             },
             "spanProps": {
               "className": "pill"
@@ -1539,7 +1540,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact"
+        "href": "/contact-us"
       },
       "linkLabel": "Start with a Discovery",
       "aProps2": {
@@ -1637,7 +1638,7 @@ export default {
         },
         "label": "214 501 0690",
         "aProps2": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "svgProps3": {
           "className": "ic",

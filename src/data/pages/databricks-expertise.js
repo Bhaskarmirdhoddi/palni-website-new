@@ -169,7 +169,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact#databricks"
+        "href": "/contact-us#databricks"
       },
       "linkLabel": "Talk to a Databricks Expert"
     }
@@ -295,25 +295,7 @@ export default {
       "supProps2": {},
       "text2": "+",
       "pProps3": {},
-      "description3": "Data Engineers and AI Practitioners",
-      "divProps10": {
-        "className": "logos",
-        "style": {
-          "gridTemplateColumns": "repeat(3,minmax(0,1fr))"
-        }
-      },
-      "spanProps3": {},
-      "label3": "Certification badge",
-      "spanProps4": {},
-      "label4": "Certification badge",
-      "spanProps5": {},
-      "label5": "Certification badge",
-      "spanProps6": {},
-      "label6": "Certification badge",
-      "spanProps7": {},
-      "label7": "Certification badge",
-      "spanProps8": {},
-      "label8": "Certification badge"
+      "description3": "Data Engineers and AI Practitioners"
     }
   },
   {
@@ -565,7 +547,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact#databricks"
+        "href": "/contact-us#databricks"
       },
       "linkLabel": "Talk to a Databricks Expert",
       "aProps2": {
@@ -663,7 +645,7 @@ export default {
         },
         "label": "214 501 0690",
         "aProps2": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "svgProps3": {
           "className": "ic",

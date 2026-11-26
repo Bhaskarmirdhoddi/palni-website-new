@@ -146,7 +146,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact#databricks"
+        "href": "/contact-us#databricks"
       },
       "linkLabel": "Talk to a Databricks Expert",
       "divSpace7": "\n    ",
@@ -641,7 +641,7 @@ export default {
         "divSpace5": "\n        ",
         "aProps": {
           "className": "btn btn-primary",
-          "href": "/contact#databricks"
+          "href": "/contact-us#databricks"
         },
         "linkLabel": "Talk to a Databricks Expert ",
         "svgProps": {
@@ -910,7 +910,7 @@ export default {
       },
       "aProps": {
         "className": "btn btn-primary",
-        "href": "/contact#databricks"
+        "href": "/contact-us#databricks"
       },
       "linkLabel": "Talk to a Databricks Expert",
       "aProps2": {
@@ -1032,7 +1032,7 @@ export default {
         "svgSpace4": "\n            ",
         "label": "214 501 0690",
         "aProps2": {
-          "href": "/contact#locations"
+          "href": "/contact-us#locations"
         },
         "svgProps3": {
           "className": "ic",

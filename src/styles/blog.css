@@ -110,13 +110,13 @@
 }
 
 .journal-card-copy h3 {
-  font-size: clamp(1.4rem, 2.4vw, 2.1rem);
+  font-size: var(--fs-h3);
   line-height: 1.12;
   transition: color .25s var(--ease);
 }
 
 .journal-card-copy h2 {
-  font-size: clamp(2rem, 3.5vw, 3.3rem);
+  font-size: var(--fs-h3);
   text-wrap: pretty;
   transition: color .25s var(--ease);
 }
@@ -293,15 +293,11 @@
 }
 
 .journal-grid .journal-card:nth-child(3n + 1) {
-  grid-column: span 5;
+  grid-column: span 4;
 }
 
 .journal-grid .journal-card:nth-child(3n + 3) {
-  grid-column: span 3;
-}
-
-.journal-grid .journal-card:nth-child(3n + 3) .journal-card-image {
-  aspect-ratio: 4 / 3;
+  grid-column: span 4;
 }
 
 .journal-grid .journal-card-link {
@@ -313,11 +309,11 @@
 }
 
 .journal-grid .journal-card:first-child:nth-last-child(2) {
-  grid-column: span 7;
+  grid-column: span 4;
 }
 
 .journal-grid .journal-card:nth-child(2):last-child {
-  grid-column: span 5;
+  grid-column: span 4;
 }
 
 .journal-empty {
@@ -459,7 +455,7 @@
 }
 
 .journal-prose {
-  font-size: clamp(1.05rem, 1.6vw, 1.18rem);
+  font-size: var(--fs-body);
   line-height: 1.8;
   color: var(--mist);
 }
@@ -474,12 +470,12 @@
 
 .journal-prose :is(h2, h3) {
   color: var(--pearl);
-  margin-top: 1.6em;
+  margin-top: 1em;
   text-wrap: pretty;
 }
 
 .journal-prose h2 {
-  font-size: clamp(1.5rem, 3.5vw, 2.35rem);
+  font-size: var(--fs-h2);
 }
 
 .journal-prose h3 {

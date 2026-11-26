@@ -88,47 +88,6 @@ export default function CertifiedSection({ content }) {
               </div>
               {content.divSpace23}
             </div>
-            {content.divSpace24}
-            <div {...content.divProps10}>
-              {content.divSpace25}
-              <span {...content.spanProps3}>
-                {content.spanSpace5}
-                {content.label3}
-                {content.spanSpace6}
-              </span>
-              {content.divSpace26}
-              <span {...content.spanProps4}>
-                {content.spanSpace7}
-                {content.label4}
-                {content.spanSpace8}
-              </span>
-              {content.divSpace27}
-              <span {...content.spanProps5}>
-                {content.spanSpace9}
-                {content.label5}
-                {content.spanSpace10}
-              </span>
-              {content.divSpace28}
-              <span {...content.spanProps6}>
-                {content.spanSpace11}
-                {content.label6}
-                {content.spanSpace12}
-              </span>
-              {content.divSpace29}
-              <span {...content.spanProps7}>
-                {content.spanSpace13}
-                {content.label7}
-                {content.spanSpace14}
-              </span>
-              {content.divSpace30}
-              <span {...content.spanProps8}>
-                {content.spanSpace15}
-                {content.label8}
-                {content.spanSpace16}
-              </span>
-              {content.divSpace31}
-            </div>
-            {content.divSpace32}
           </div>
           {content.divSpace33}
         </div>

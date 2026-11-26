@@ -1,0 +1,47 @@
+# Palni website QA audit
+
+## Scope and route inventory
+
+The project uses React 19, React Router's `BrowserRouter`, and Vite with the React plugin. `src/content/pages.js` owns corporate route metadata, `src/routes/AppRoutes.jsx` combines corporate and blog routes and redirects, and `src/data/pages/` owns the independently configured page content. `PageLayout`, the section registry, and the shared chrome render the corporate pages. `src/styles/site.css` owns the design system, with component rules in `app.css` and `blog.css`. The build generates static HTML and metadata for Insights alongside the SPA entry. Vercel supplies permanent legacy redirects and a fallback rewrite.
+
+The inventory covers 16 corporate pages, 16 `.html` or index aliases, two Insights archive pages and the `/blog` alias, six articles, eight legacy redirects, two archive normalization cases, and the unmatched-path fallback. The [route verification matrix](PAGE-BY-PAGE-VERIFICATION.md) lists every exercised path, the expected destination, and available browser evidence. The pagination pattern is `/blog/page/:number`. Valid pages depend on the number of archive results. Service selections, Databricks sections, Insights filters, and article anchors also use query strings or hash links.
+
+## Findings and corrections
+
+| Priority | Scope | Finding | Correction |
+| --- | --- | --- | --- |
+| High | Home hero and final CTA | Both areas presented the same pair of Discovery and Use Cases destinations. | Kept the primary Discovery CTA and Use Cases in the hero. The final CTA links to Platform Solutions and How We Work with sticky-header clearance. |
+| High | Home client logos | The heading and supporting text sat side by side. With reduced motion, the non-shrinking logo track extended past its clipped container. | Centered the heading and exact approved description. The static logo track wraps within the viewport. The animated track has a pause button. |
+| High | Contact form and company panel | The local page rendered one hero, one enquiry section, one set of company cards, and one offices section. Four team cards repeated the same phone number. The form preview claimed delivery despite having no submission endpoint. | Kept each team's address. The panel shows one clickable phone number and four email links. The form still validates and resets, and labels the result as a preview. |
+| Medium | Contact typography and locations | Input type used a fixed size and the two columns had a 72px gutter. Form errors lacked a programmatic association with their inputs. The Locations section has separate country groups, hours and directions. | Used the approved body size, narrowed the desktop gutter, and linked inputs to their errors. Kept the locations and mobile stack. |
+| High | CX Solutions | The Intelligent Support introduction and Focus section accumulated vertical padding. The capability lead and heading ended on the same baseline even when the lead was several lines taller. | Balanced the introductory transition and top-aligned the headings and copy. Kept the CX tabs, offers, case copy, and images. |
+| High | Data Engineering | The AI-Ready Data introduction, Focus list, and Data Engineering Capabilities had the same stacked padding and lead misalignment. | Adjusted the service-page rhythm and alignment. Kept the engineering-specific panels, outcomes, and offers. |
+| High | AI & Automation | The Agentic AI intro and Focus list had a large gap before the capability section. Its longer right-side copy made the headline appear low. | Tightened the transition and top-aligned the lead. Kept the workflow, agent, voice, and knowledge content. |
+| High | Databricks Capabilities | Data Engineering and Agentic Data and AI used different right-column layouts, with the canvas making the compact Agentic feature grid leave a large empty area. Section padding extended the gaps. | Used the existing stacked list for Agentic and reduced the padding on those two articles. Data Products, AI and Machine Learning, Governance, and Migration retain their existing layouts. |
+| High | Databricks Industry Solutions | Outcomes and tabbed Industry Solutions switched between Databricks and brand tones. The Outcomes lead read like an editorial instruction. | Used the existing Databricks tone across the transition, paired the headings and copy, and described the growth, risk, and efficiency outcomes shown in the cards. |
+| High | Databricks Expertise and Accelerators | The certifications panel contained six identical `Certification badge` placeholders. Certifications bottom padding and Accelerators top padding combined to 192px at 1440px. | Removed the placeholder markup, retained both certification metrics, and reduced the combined padding to 64px with a section divider. |
+| High | Careers final CTA | The email form claimed recruiting would follow up. It had no transport or CV upload. | Linked the existing recruiting address from a primary Email Your CV action. Kept role search, accordion details, hiring steps, and fraud guidance. |
+| Medium | Shared navigation and tabs | Desktop Escape could leave focus inside a closed menu. The mobile drawer could leave its trigger expanded and lacked keyboard containment. Service tabs were announced as vertical when the layout ran horizontally on mobile. | Restored desktop focus on Escape, synchronized drawer state and focus, and switched tab orientation with layout. Added orientation-appropriate arrows and Home/End. |
+| Medium | Shared carousels | Rotation could restart while a visitor hovered or moved focus between controls. Slide paragraphs used a four-line clamp. | Added a pause control, respected focus, hover, visibility and reduced motion, and allowed slide copy to wrap. Aligned metric and headline typography with the approved scale. |
+| Medium | Use Cases | Filter history updates overwrote React Router state and could strip query parameters when clearing the filter. | Updated the hash while preserving browser history state and the current query string. |
+| Medium | Insights articles | Article body and second-level headings used an independent font-size scale. One article already recorded two unavailable source illustrations. | Used the approved body and H2 tokens. Kept the source note on the article with missing illustrations. |
+
+## Capabilities content decision
+
+**PENDING – Stakeholder content approval required from Charan following Ritam's instruction.**
+
+The shared layout renders three independently editable sections in each service configuration: Where We Focus, the service-specific Capabilities section, and Start With What Matters Now. The first and third headings are reused exactly across the three pages. The overlap is primarily in the subjects and positioning of the content, with page-specific descriptions and deliverables.
+
+| Service | Where We Focus | Capabilities and offers overlap |
+| --- | --- | --- |
+| CX Solutions | Customer Journey Transformation, AI and Intelligent Support, Service Operations and Visibility, Omnichannel Support | Customer Journeys and Journey Friction Diagnostic cover the journey. Intelligent Support repeats in the panel name and Intelligent Support Review. Service Operations and Omnichannel revisit their focus entries, and the Omnichannel Operating Model adds an engagement deliverable. Knowledge and the Knowledge Consistency Audit cover similar ground. |
+| Data Engineering | Modern Data Platforms, Data Warehousing and Analytics, Agentic AI, Governance and Quality | Data Platforms and the Data Foundation Diagnostic return to platform foundations. Warehousing and Analytics split the combined focus entry. Analytics Trust Review revisits governed metrics. Governance covers the same quality controls as Governance and Quality. The AI Readiness Assessment is adjacent to Agentic AI and has its own deliverables. |
+| AI & Automation | Intelligent Workflow Automation, Agentic AI and Decision Automation, Voice AI, Knowledge AI | Agentic AI relates directly to Agents that decide and act and the Agent Workflow Pilot. `Voice AI` and `Knowledge AI` appear as focus entries and tab labels, plus the Voice AI Intake Pilot and Knowledge AI Grounding. Workflow Automation and the Automation Opportunity Scan repeat their theme while describing different outputs. |
+
+After approval, the focus rows could state buyer problems, the panels could explain platform capability, and offers could retain their distinct scope and deliverables. The section keys and data-driven panels can accept approved replacements in the three page configuration files. The existing stakeholder copy was kept during this audit.
+
+## Section inventory and evidence
+
+See the [route verification matrix](PAGE-BY-PAGE-VERIFICATION.md) for each page’s rendered section sequence and full-page captures. The baseline and corrected builds were also checked for page headings, internal link targets, decoded images, alt attributes, duplicate IDs, and viewport overflow. The real interaction suite covers menus, tabs, carousels, form validation, careers search, use-case filtering, theme, and policy anchors. Insights has its own browser suite for article and archive interactions.
+
+The site has no local enquiry delivery endpoint or newsletter service. External social destinations, map services, email delivery, and phone calls were outside browser end-to-end verification. Production was inspected read-only.

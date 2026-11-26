@@ -19,7 +19,7 @@ const topicsFor = post => [...post.categories, ...post.tags]
 const topics = [...new Map(posts.flatMap(post => topicsFor(post).map(topic => [topic.slug, topic]))).values()]
 const dateFormat = new Intl.DateTimeFormat('en', { dateStyle: 'long', timeZone: 'UTC' })
 const searchable = posts.map(post => [
-  post.title, post.excerpt, post.author, ...topicsFor(post).map(topic => topic.name),
+  post.title, post.excerpt, ...topicsFor(post).map(topic => topic.name),
   post.body.replace(/<[^>]*>/g, ' ').replace(/&amp;/g, '&'),
 ].join(' ').toLowerCase())
 
@@ -49,10 +49,9 @@ function useBlogMetadata(post, page) {
   }, [post, page])
 }
 
-function PostMeta({ post, byline = false }) {
+function PostMeta({ post }) {
   return (
     <div className="journal-meta">
-      {byline && post.author && <span>By {post.author}</span>}
       <time dateTime={post.published}>{dateFormat.format(new Date(post.published))}</time>
       <span>{post.minutes} min read</span>
     </div>
@@ -241,7 +240,7 @@ function Article({ post }) {
           <p className="journal-kicker">{post.categories.map(item => item.name).join(' / ')}</p>
           <h1>{post.title}</h1>
           <p className="lead">{post.excerpt}</p>
-          <PostMeta post={post} byline />
+          <PostMeta post={post} />
         </header>
         <img className="journal-article-image" {...post.image} fetchPriority="high" />
         <div className="journal-reading">
